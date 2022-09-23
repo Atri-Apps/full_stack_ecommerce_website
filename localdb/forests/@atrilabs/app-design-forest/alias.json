@@ -1,6 +1,8 @@
 {
-  "Flex": 73,
-  "TextBox": 60,
-  "Image": 27,
-  "Button": 2
+  "Flex": 86,
+  "TextBox": 74,
+  "Image": 34,
+  "Button": 4,
+  "Checkbox": 1,
+  "Input": 3
 }

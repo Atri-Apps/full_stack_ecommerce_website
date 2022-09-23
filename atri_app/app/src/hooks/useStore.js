@@ -1064,10 +1064,11 @@ const desktopModeProps = {
         "justifyContent": "center",
         "flexDirection": "column",
         "rowGap": "30px",
-        "marginBottom": "400px",
+        "marginBottom": "",
         "paddingLeft": "50px",
         "paddingRight": "50px",
-        "boxSizing": "border-box"
+        "boxSizing": "border-box",
+        "paddingBottom": ""
       },
       "callbacks": {}
     },
@@ -1667,6 +1668,538 @@ const desktopModeProps = {
       },
       "custom": {
         "text": "View All Products"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex74": {
+      "styles": {
+        "display": "flex",
+        "paddingLeft": "",
+        "paddingTop": "150px",
+        "paddingBottom": ""
+      },
+      "callbacks": {}
+    },
+    "Flex75": {
+      "styles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "rowGap": "5px",
+        "width": "40%",
+        "backgroundColor": "#FBF9F8",
+        "paddingLeft": "50px",
+        "justifyContent": "center"
+      },
+      "callbacks": {}
+    },
+    "Flex76": {
+      "styles": {
+        "display": "flex",
+        "flexGrow": 1
+      },
+      "callbacks": {}
+    },
+    "TextBox61": {
+      "styles": {
+        "width": "100%",
+        "paddingTop": "10px",
+        "paddingBottom": "20px"
+      },
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox62": {
+      "styles": {
+        "color": "#D77474"
+      },
+      "custom": {
+        "text": "POMPEO POTTERY"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox63": {
+      "styles": {
+        "fontFamily": "Open Sans",
+        "fontWeight": 600,
+        "fontSize": "32px"
+      },
+      "custom": {
+        "text": "Ready to start shopping?"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button3": {
+      "styles": {
+        "color": "#fff",
+        "backgroundColor": "#AC1314",
+        "paddingTop": "15px",
+        "paddingLeft": "15px",
+        "paddingBottom": "15px",
+        "paddingRight": "15px",
+        "fontSize": "13px",
+        "borderRadius": "2px",
+        "outline": "none",
+        "fontWeight": 300,
+        "textAlign": "center",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "#1890ff",
+        "cursor": "pointer",
+        "userSelect": "none",
+        "fontFamily": "Open Sans",
+        "width": "180px"
+      },
+      "custom": {
+        "text": "NEW COLLECTION"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image28": {
+      "styles": {
+        "width": "100%"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Screenshot%202022-09-23%20at%2012.29.41%20PM.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex77": {
+      "styles": {
+        "display": "flex",
+        "paddingTop": "100px",
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "flexDirection": "column",
+        "rowGap": "30px",
+        "paddingBottom": "150px"
+      },
+      "callbacks": {}
+    },
+    "Image29": {
+      "styles": {
+        "width": "100px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/icons8-sent-50.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox64": {
+      "styles": {
+        "fontFamily": "Open Sans",
+        "fontWeight": 600,
+        "fontSize": "32px"
+      },
+      "custom": {
+        "text": "Latest news & New updates"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox65": {
+      "styles": {
+        "color": "#D77474"
+      },
+      "custom": {
+        "text": "LATEST NEWS"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex78": {
+      "styles": {
+        "display": "flex",
+        "paddingRight": "",
+        "columnGap": "5px"
+      },
+      "callbacks": {}
+    },
+    "Flex79": {
+      "styles": {
+        "display": "flex",
+        "columnGap": "10px"
+      },
+      "callbacks": {}
+    },
+    "Checkbox1": {
+      "styles": {},
+      "custom": {
+        "checked": true
+      },
+      "callbacks": {}
+    },
+    "TextBox66": {
+      "styles": {},
+      "custom": {
+        "text": "Sign up for our newsletter"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex81": {
+      "styles": {
+        "display": "flex",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "backgroundColor": "#FBFBFB",
+        "width": "400px"
+      },
+      "callbacks": {}
+    },
+    "Image31": {
+      "styles": {},
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/icons8-mail-24.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input3": {
+      "styles": {
+        "boxSizing": "border-box",
+        "fontVariant": "tabular-nums",
+        "fontFeatureSettings": "tnum",
+        "paddingTop": "4px",
+        "paddingLeft": "11px",
+        "paddingBottom": "4px",
+        "paddingRight": "11px",
+        "color": "#000000d9",
+        "fontSize": "14px",
+        "backgroundColor": "#FBFBFB",
+        "backgroundImage": "none",
+        "borderWidth": "1px",
+        "borderStyle": "none",
+        "borderColor": "#d9d9d9",
+        "borderRadius": "2px"
+      },
+      "custom": {
+        "value": "",
+        "placeholder": "Enter your email"
+      },
+      "callbacks": {}
+    },
+    "Button4": {
+      "styles": {
+        "color": "#fff",
+        "backgroundColor": "#000000",
+        "paddingTop": "15px",
+        "paddingLeft": "25px",
+        "paddingBottom": "15px",
+        "paddingRight": "25px",
+        "fontSize": "16px",
+        "borderRadius": "2px",
+        "outline": "none",
+        "fontWeight": 400,
+        "textAlign": "center",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "#1890ff",
+        "cursor": "pointer",
+        "userSelect": "none"
+      },
+      "custom": {
+        "text": "SUBSCRIBE"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex82": {
+      "styles": {
+        "display": "flex",
+        "backgroundColor": "#FBFBFB",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexDirection": "column",
+        "paddingTop": "100px",
+        "rowGap": "20px",
+        "paddingLeft": "50px",
+        "paddingRight": "50px"
+      },
+      "callbacks": {}
+    },
+    "TextBox67": {
+      "styles": {
+        "fontFamily": "Open Sans",
+        "fontWeight": 600,
+        "fontSize": "30px",
+        "paddingLeft": ""
+      },
+      "custom": {
+        "text": "Pompeo"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox68": {
+      "styles": {
+        "width": "33%"
+      },
+      "custom": {
+        "text": "I have always striven to fix beauty in wood, stone, glass or pottery, that has been my creed."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex83": {
+      "styles": {
+        "display": "flex",
+        "paddingLeft": "",
+        "paddingRight": "",
+        "justifyContent": "space-between",
+        "columnGap": "190px",
+        "alignItems": "center",
+        "paddingTop": "30px"
+      },
+      "callbacks": {}
+    },
+    "Flex84": {
+      "styles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "rowGap": "7px"
+      },
+      "callbacks": {}
+    },
+    "Flex85": {
+      "styles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "rowGap": "7px"
+      },
+      "callbacks": {}
+    },
+    "Flex86": {
+      "styles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "rowGap": "7px"
+      },
+      "callbacks": {}
+    },
+    "Image32": {
+      "styles": {
+        "width": "50px",
+        "height": "50px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/icons8-mail-24.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox69": {
+      "styles": {
+        "fontFamily": "Open Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "EMAIL"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox70": {
+      "styles": {
+        "paddingTop": "10px"
+      },
+      "custom": {
+        "text": "pompeopotery@gmail.com"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image33": {
+      "styles": {
+        "width": "50px",
+        "height": "50px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/icons8-address-100.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox71": {
+      "styles": {
+        "fontFamily": "Open Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "FIND"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox72": {
+      "styles": {
+        "width": "80%",
+        "alignSelf": "auto",
+        "textAlign": "center",
+        "paddingTop": "10px"
+      },
+      "custom": {
+        "text": "Central Park, Manhattan New York, 1101"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image34": {
+      "styles": {
+        "width": "50px",
+        "height": "50px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/icons8-phone-80.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox73": {
+      "styles": {
+        "fontFamily": "Open Sans",
+        "fontWeight": 500
+      },
+      "custom": {
+        "text": "CALL"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox74": {
+      "styles": {
+        "paddingTop": "10px"
+      },
+      "custom": {
+        "text": "+1 292 345 678"
       },
       "callbacks": {
         "onClick": [
