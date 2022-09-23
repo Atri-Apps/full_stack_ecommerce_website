@@ -8,6 +8,7 @@ def init_state(at: Atri):
     The argument "at" is a dictionary that has initial values set from visual editor.
     Changing values in this dictionary will modify the intial state of the app.
     """
+
     pass
 
 def handle_page_request(at: Atri, req: Request, res: Response, query: str):
