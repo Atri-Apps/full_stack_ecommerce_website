@@ -22,4 +22,14 @@ def handle_event(at: Atri, req: Request, res: Response):
     This function is called whenever an event is received. An event occurs when user
     performs some action such as click button.
     """
+    if at.TextBox6.onClick:
+        res.headers.append("location", "/about-us")
+    if at.TextBox3.onClick:
+        res.headers.append("location", "/contact-us")
+    if at.TextBox5.onClick or at.Button1.onClick or at.Button2.onClick:
+        res.headers.append("location", "/shop")
+    if at.TextBox4.onClick or at.TextBox1.onClick:
+        res.headers.append("location", "/")
+
+
     pass

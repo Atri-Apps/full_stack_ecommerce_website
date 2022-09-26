@@ -2,5 +2,21 @@
   "home": {
     "name": "Home",
     "route": "/"
+  },
+  "b72660d6-2404-4ad8-99f4-6e52302fe74d": {
+    "name": "about-us",
+    "route": "/about-us"
+  },
+  "41fc0800-d4df-4845-8569-367ad1b984d7": {
+    "name": "contact-us",
+    "route": "/contact-us"
+  },
+  "dc1cf6e9-9b4e-43bc-b7d7-d6aaeca8bf93": {
+    "name": "product",
+    "route": "/product"
+  },
+  "92ead7a1-36a2-4eee-a243-689ca807c36c": {
+    "name": "shop",
+    "route": "/shop"
   }
 }

@@ -5,6 +5,18 @@
   "pages": {
     "/": {
       "name": "Home"
+    },
+    "/about-us": {
+      "name": "about-us"
+    },
+    "/contact-us": {
+      "name": "contact-us"
+    },
+    "/product": {
+      "name": "product"
+    },
+    "/shop": {
+      "name": "shop"
     }
   },
   "publicUrlAssetMap": {
