@@ -42,7 +42,9 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
     This function is called whenever a user loads this route in the browser.
     """
-
+    f = open('products.json')
+    data = json.load(f)
+    at.TextBox215.custom.text = f'Product {1}-{min(len(data), 6)}'
     set_data(at, 6, 0)
 
 
