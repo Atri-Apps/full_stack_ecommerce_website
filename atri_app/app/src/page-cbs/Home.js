@@ -41,7 +41,10 @@ export function useTextBox1Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
     }
   ],
   "actions": [
@@ -54,70 +57,6 @@ export function useTextBox1Cb() {
 }
 export function useTextBox2Cb() {
 	const onClick = useCallback(callbackFactory("TextBox2", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox3Cb() {
-	const onClick = useCallback(callbackFactory("TextBox3", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox4Cb() {
-	const onClick = useCallback(callbackFactory("TextBox4", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox5Cb() {
-	const onClick = useCallback(callbackFactory("TextBox5", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox6Cb() {
-	const onClick = useCallback(callbackFactory("TextBox6", "Home", "/", "onClick", 
 			{
   "handlers": [
     {
@@ -265,7 +204,10 @@ export function useButton1Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/shop"
+      }
     }
   ],
   "actions": [
@@ -1681,7 +1623,10 @@ export function useButton2Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/shop"
+      }
     }
   ],
   "actions": [
@@ -2221,6 +2166,282 @@ export function useTextBox74Cb() {
       "sendEventData": true
     }
   ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox219Cb() {
+	const onClick = useCallback(callbackFactory("TextBox219", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage107Cb() {
+	const onClick = useCallback(callbackFactory("Image107", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox224Cb() {
+	const onClick = useCallback(callbackFactory("TextBox224", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox225Cb() {
+	const onClick = useCallback(callbackFactory("TextBox225", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/about-us"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox226Cb() {
+	const onClick = useCallback(callbackFactory("TextBox226", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/shop"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox227Cb() {
+	const onClick = useCallback(callbackFactory("TextBox227", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/contact-us"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox228Cb() {
+	const onClick = useCallback(callbackFactory("TextBox228", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage108Cb() {
+	const onClick = useCallback(callbackFactory("Image108", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex246Cb() {
+	const onClick = useCallback(callbackFactory("Flex246", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useMenu2Cb() {
+	const onClick = useCallback(callbackFactory("Menu2", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "open"
+      ]
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox229Cb() {
+	const onClick = useCallback(callbackFactory("TextBox229", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox230Cb() {
+	const onClick = useCallback(callbackFactory("TextBox230", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/about-us"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox231Cb() {
+	const onClick = useCallback(callbackFactory("TextBox231", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/shop"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox232Cb() {
+	const onClick = useCallback(callbackFactory("TextBox232", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/contact-us"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox233Cb() {
+	const onClick = useCallback(callbackFactory("TextBox233", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex247Cb() {
+	const onClick = useCallback(callbackFactory("Flex247", "Home", "/", "onClick", 
+			{
+  "handlers": [],
   "actions": [
     {
       "type": "do_nothing"

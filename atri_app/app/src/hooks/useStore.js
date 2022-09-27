@@ -46,13 +46,14 @@ const desktopModeProps = {
         "justifyContent": "space-between",
         "paddingTop": "15px",
         "paddingBottom": "15px",
-        "position": "sticky",
+        "position": "fixed",
         "top": 1,
-        "zIndex": 100,
+        "zIndex": null,
         "backgroundColor": "#ffffff",
-        "float": "none",
+        "float": "left",
         "clear": "none",
-        "bottom": null
+        "bottom": null,
+        "width": "100%"
       },
       "callbacks": {}
     },
@@ -69,7 +70,8 @@ const desktopModeProps = {
         "display": "flex",
         "alignItems": "center",
         "columnGap": "50px",
-        "paddingRight": "100px"
+        "paddingRight": "100px",
+        "marginRight": ""
       },
       "callbacks": {}
     },
@@ -87,7 +89,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -96,66 +101,6 @@ const desktopModeProps = {
       "styles": {},
       "custom": {
         "text": "Cart"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox3": {
-      "styles": {
-        "cursor": "pointer"
-      },
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox4": {
-      "styles": {
-        "cursor": "pointer"
-      },
-      "custom": {
-        "text": "Home"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox5": {
-      "styles": {
-        "cursor": "pointer"
-      },
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox6": {
-      "styles": {
-        "cursor": "pointer"
-      },
-      "custom": {
-        "text": "About"
       },
       "callbacks": {
         "onClick": [
@@ -320,7 +265,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
@@ -1702,7 +1650,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
@@ -2243,6 +2194,269 @@ const desktopModeProps = {
           }
         ]
       }
+    },
+    "TextBox219": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image107": {
+      "styles": {
+        "width": "20px",
+        "height": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cart-svgrepo-com.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox224": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox225": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox226": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox227": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox228": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image108": {
+      "styles": {
+        "width": "20px",
+        "height": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cart-svgrepo-com.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex246": {
+      "styles": {
+        "display": "flex",
+        "columnGap": "10px",
+        "cursor": "pointer",
+        "paddingLeft": "10px",
+        "borderLeftWidth": "2px",
+        "borderLeftStyle": "solid",
+        "borderLeftColor": "#a4a4a4"
+      },
+      "callbacks": {}
+    },
+    "Menu2": {
+      "styles": {
+        "display": "none",
+        "alignItems": "center"
+      },
+      "custom": {
+        "open": false,
+        "iconHeight": 24,
+        "iconWidth": 24,
+        "alignRight": true,
+        "gap": "",
+        "strokeColor": "#000000",
+        "src": ""
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox229": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox230": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox231": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox232": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox233": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex247": {
+      "styles": {
+        "display": "flex",
+        "columnGap": "10px",
+        "cursor": "pointer",
+        "paddingLeft": "",
+        "borderLeftWidth": "2px",
+        "borderLeftStyle": "solid",
+        "borderLeftColor": "#a4a4a4"
+      },
+      "callbacks": {}
     }
   },
   "about-us": {
@@ -2298,7 +2512,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
           }
         ]
       }
@@ -2313,7 +2530,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
@@ -2328,7 +2548,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -2343,7 +2566,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
           }
         ]
       }
@@ -2362,7 +2588,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -2390,7 +2619,12 @@ const desktopModeProps = {
         "justifyContent": "space-between",
         "paddingTop": "15px",
         "paddingBottom": "15px",
-        "position": "sticky"
+        "position": "static",
+        "width": "100%",
+        "bottom": null,
+        "zIndex": null,
+        "backgroundColor": "#ffffff",
+        "top": null
       },
       "callbacks": {}
     },
@@ -3705,7 +3939,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
           }
         ]
       }
@@ -3720,7 +3957,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
@@ -3735,7 +3975,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -3750,7 +3993,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
           }
         ]
       }
@@ -3769,7 +4015,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -4672,7 +4921,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
           }
         ]
       }
@@ -4687,7 +4939,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
@@ -4702,7 +4957,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -4717,7 +4975,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
           }
         ]
       }
@@ -4736,7 +4997,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -5676,7 +5940,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -5691,7 +5958,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
           }
         ]
       }
@@ -5706,7 +5976,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -5721,7 +5994,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
@@ -5736,7 +6012,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
           }
         ]
       }
@@ -6231,82 +6510,6 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex212": {
-      "styles": {
-        "display": "flex",
-        "flexDirection": "column",
-        "width": "33%",
-        "rowGap": "20px"
-      },
-      "callbacks": {}
-    },
-    "Flex213": {
-      "styles": {
-        "display": "flex",
-        "flexDirection": "column",
-        "width": "33%",
-        "rowGap": "20px"
-      },
-      "callbacks": {}
-    },
-    "Flex214": {
-      "styles": {
-        "display": "flex",
-        "flexDirection": "column",
-        "width": "33%",
-        "rowGap": "20px"
-      },
-      "callbacks": {}
-    },
-    "Flex215": {
-      "styles": {
-        "display": "flex",
-        "flexDirection": "column",
-        "width": "33%",
-        "rowGap": "20px"
-      },
-      "callbacks": {}
-    },
-    "Flex216": {
-      "styles": {
-        "display": "flex",
-        "flexDirection": "column",
-        "width": "33%",
-        "rowGap": "20px"
-      },
-      "callbacks": {}
-    },
-    "Flex217": {
-      "styles": {
-        "display": "flex",
-        "flexDirection": "column",
-        "width": "33%",
-        "rowGap": "20px"
-      },
-      "callbacks": {}
-    },
-    "Flex218": {
-      "styles": {
-        "display": "flex",
-        "paddingLeft": "",
-        "paddingRight": "",
-        "flexDirection": "row",
-        "columnGap": "20px",
-        "paddingTop": "",
-        "paddingBottom": "50px"
-      },
-      "callbacks": {}
-    },
-    "Flex219": {
-      "styles": {
-        "display": "flex",
-        "paddingLeft": "",
-        "paddingRight": "",
-        "flexDirection": "row",
-        "columnGap": "20px"
-      },
-      "callbacks": {}
-    },
     "Flex220": {
       "styles": {
         "display": "flex",
@@ -6318,7 +6521,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Image95": {
+    "Prod_image_5": {
       "styles": {
         "height": "100%",
         "width": "100%"
@@ -6335,7 +6538,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image96": {
+    "Prod_image_4": {
       "styles": {
         "height": "100%",
         "width": "100%"
@@ -6352,7 +6555,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image97": {
+    "Prod_image_6": {
       "styles": {
         "height": "100%",
         "width": "100%"
@@ -6379,7 +6582,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "TextBox200": {
+    "Name_5": {
       "styles": {},
       "custom": {
         "text": "Dark Bowl"
@@ -6392,7 +6595,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox201": {
+    "Price_5": {
       "styles": {
         "position": "relative",
         "bottom": 17,
@@ -6419,7 +6622,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "TextBox202": {
+    "Name_4": {
       "styles": {},
       "custom": {
         "text": "Orange Ceramic"
@@ -6432,7 +6635,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox203": {
+    "Price_4": {
       "styles": {
         "position": "relative",
         "bottom": 17,
@@ -6451,7 +6654,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox204": {
+    "Name_6": {
       "styles": {},
       "custom": {
         "text": "Square Pottery"
@@ -6472,7 +6675,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "TextBox205": {
+    "Price_6": {
       "styles": {
         "position": "relative",
         "bottom": 17,
@@ -6491,7 +6694,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex224": {
+    "Card_5": {
       "styles": {
         "display": "flex",
         "flexDirection": "column",
@@ -6500,7 +6703,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex225": {
+    "Card_4": {
       "styles": {
         "display": "flex",
         "flexDirection": "column",
@@ -6509,7 +6712,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex226": {
+    "Card_6": {
       "styles": {
         "display": "flex",
         "flexDirection": "column",
@@ -6530,7 +6733,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Image98": {
+    "Prod_image_2": {
       "styles": {
         "height": "100%",
         "width": "100%"
@@ -6547,7 +6750,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image99": {
+    "Prod_image_1": {
       "styles": {
         "height": "100%",
         "width": "100%"
@@ -6564,7 +6767,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image100": {
+    "Prod_image_3": {
       "styles": {
         "height": "100%",
         "width": "100%"
@@ -6591,7 +6794,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "TextBox206": {
+    "Name_2": {
       "styles": {},
       "custom": {
         "text": "Dark Bowl"
@@ -6604,7 +6807,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox207": {
+    "Price_2": {
       "styles": {
         "position": "relative",
         "bottom": 17,
@@ -6631,7 +6834,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "TextBox208": {
+    "Name_1": {
       "styles": {},
       "custom": {
         "text": "Orange Ceramic"
@@ -6644,7 +6847,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox209": {
+    "Price_1": {
       "styles": {
         "position": "relative",
         "bottom": 17,
@@ -6663,7 +6866,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox210": {
+    "Name_3": {
       "styles": {},
       "custom": {
         "text": "Square Pottery"
@@ -6684,7 +6887,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "TextBox211": {
+    "Price_3": {
       "styles": {
         "position": "relative",
         "bottom": 17,
@@ -6703,7 +6906,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex231": {
+    "Card_2": {
       "styles": {
         "display": "flex",
         "flexDirection": "column",
@@ -6712,7 +6915,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex232": {
+    "Card_1": {
       "styles": {
         "display": "flex",
         "flexDirection": "column",
@@ -6721,7 +6924,7 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex233": {
+    "Card_3": {
       "styles": {
         "display": "flex",
         "flexDirection": "column",
@@ -6842,27 +7045,19 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex236": {
+    "Flex239": {
       "styles": {
         "display": "flex",
+        "alignItems": "center",
+        "justifyContent": "center",
         "columnGap": "10px"
       },
       "callbacks": {}
     },
-    "Flex237": {
-      "styles": {
-        "display": "flex",
-        "paddingRight": "",
-        "columnGap": "5px"
-      },
-      "callbacks": {}
-    },
-    "TextBox213": {
-      "styles": {
-        "color": "#D77474"
-      },
+    "TextBox215": {
+      "styles": {},
       "custom": {
-        "text": "LATEST NEWS"
+        "text": "Your text Here!"
       },
       "callbacks": {
         "onClick": [
@@ -6872,7 +7067,123 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox214": {
+    "Image103": {
+      "styles": {},
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/icons8-mail-24.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input9": {
+      "styles": {
+        "boxSizing": "border-box",
+        "fontVariant": "tabular-nums",
+        "fontFeatureSettings": "tnum",
+        "paddingTop": "4px",
+        "paddingLeft": "11px",
+        "paddingBottom": "4px",
+        "paddingRight": "11px",
+        "color": "#000000d9",
+        "fontSize": "14px",
+        "backgroundColor": "#FBFBFB",
+        "backgroundImage": "none",
+        "borderWidth": "1px",
+        "borderStyle": "none",
+        "borderColor": "#d9d9d9",
+        "borderRadius": "2px",
+        "width": "80%"
+      },
+      "custom": {
+        "value": "",
+        "placeholder": "Enter your email"
+      },
+      "callbacks": {}
+    },
+    "Flex240": {
+      "styles": {
+        "display": "flex",
+        "justifyContent": "flex-start",
+        "alignItems": "center",
+        "backgroundColor": "#FBFBFB",
+        "width": "400px",
+        "paddingLeft": "20px"
+      },
+      "callbacks": {}
+    },
+    "Button10": {
+      "styles": {
+        "color": "#fff",
+        "backgroundColor": "#000000",
+        "paddingTop": "15px",
+        "paddingLeft": "25px",
+        "paddingBottom": "15px",
+        "paddingRight": "25px",
+        "fontSize": "16px",
+        "borderRadius": "2px",
+        "outline": "none",
+        "fontWeight": 400,
+        "textAlign": "center",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "#1890ff",
+        "cursor": "pointer",
+        "userSelect": "none"
+      },
+      "custom": {
+        "text": "SUBSCRIBE"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Checkbox3": {
+      "styles": {},
+      "custom": {
+        "checked": true
+      },
+      "callbacks": {}
+    },
+    "TextBox216": {
+      "styles": {},
+      "custom": {
+        "text": "Sign up for our newsletter"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image104": {
+      "styles": {
+        "width": "100px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/icons8-sent-50.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox217": {
       "styles": {
         "fontFamily": "Open Sans",
         "fontWeight": 600,
@@ -6889,13 +7200,12 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image102": {
+    "TextBox218": {
       "styles": {
-        "width": "100px"
+        "color": "#D77474"
       },
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/icons8-sent-50.png"
+        "text": "LATEST NEWS"
       },
       "callbacks": {
         "onClick": [
@@ -6905,7 +7215,22 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex238": {
+    "Flex241": {
+      "styles": {
+        "display": "flex",
+        "paddingRight": "",
+        "columnGap": "5px"
+      },
+      "callbacks": {}
+    },
+    "Flex242": {
+      "styles": {
+        "display": "flex",
+        "columnGap": "10px"
+      },
+      "callbacks": {}
+    },
+    "Flex243": {
       "styles": {
         "display": "flex",
         "paddingTop": "100px",
@@ -6916,13 +7241,278 @@ const desktopModeProps = {
         "paddingBottom": "150px"
       },
       "callbacks": {}
+    },
+    "Image105": {
+      "styles": {
+        "width": "20px",
+        "height": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Vector.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image106": {
+      "styles": {
+        "width": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Vector.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     }
   }
 }};
 
 const breakpointProps = {
   ...{
-  "Home": {},
+  "Home": {
+    "478": {
+      "TextBox1": {
+        "styles": {
+          "paddingLeft": "50px"
+        }
+      },
+      "Flex27": {
+        "styles": {
+          "flexDirection": "column",
+          "paddingLeft": "50px",
+          "paddingRight": "50px",
+          "rowGap": "40px"
+        }
+      },
+      "Flex28": {
+        "styles": {
+          "width": "100%"
+        }
+      },
+      "Flex30": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "200px",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      },
+      "Flex39": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "100px",
+          "paddingLeft": "50px",
+          "paddingRight": "50px",
+          "paddingTop": "140px"
+        }
+      },
+      "Flex46": {
+        "styles": {
+          "width": "90%"
+        }
+      },
+      "Flex47": {
+        "styles": {
+          "width": "90%"
+        }
+      },
+      "Flex48": {
+        "styles": {
+          "width": "90%"
+        }
+      },
+      "Flex49": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "30px",
+          "alignItems": "center"
+        }
+      },
+      "Flex70": {
+        "styles": {
+          "width": "90%"
+        }
+      },
+      "Flex71": {
+        "styles": {
+          "width": "90%"
+        }
+      },
+      "Flex72": {
+        "styles": {
+          "width": "90%"
+        }
+      },
+      "Flex73": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "30px",
+          "alignItems": "center"
+        }
+      },
+      "Flex74": {
+        "styles": {
+          "flexDirection": "column"
+        }
+      },
+      "Flex75": {
+        "styles": {
+          "width": "100%"
+        }
+      },
+      "TextBox61": {
+        "styles": {
+          "paddingRight": "30px",
+          "width": "60%"
+        }
+      },
+      "TextBox63": {
+        "styles": {
+          "width": "70%"
+        }
+      },
+      "TextBox64": {
+        "styles": {
+          "width": "70%"
+        }
+      },
+      "Flex81": {
+        "styles": {
+          "width": "60%",
+          "maxWidth": "400px"
+        }
+      },
+      "TextBox68": {
+        "styles": {
+          "width": "60%",
+          "maxWidth": "300px"
+        }
+      },
+      "Flex83": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "30px"
+        }
+      },
+      "Flex247": {
+        "styles": {
+          "paddingTop": "10px",
+          "backgroundColor": "",
+          "width": "100%",
+          "borderLeftStyle": "none"
+        }
+      }
+    },
+    "767": {
+      "Flex5": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "50px"
+        }
+      },
+      "Flex6": {
+        "styles": {
+          "paddingLeft": ""
+        }
+      },
+      "Flex25": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "30px"
+        }
+      },
+      "Flex27": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "50px"
+        }
+      },
+      "Flex28": {
+        "styles": {
+          "width": "100%"
+        }
+      },
+      "Flex29": {
+        "styles": {
+          "width": "100%"
+        }
+      },
+      "Flex30": {
+        "styles": {
+          "paddingRight": "15px"
+        }
+      },
+      "Image10": {
+        "styles": {
+          "left": 10
+        }
+      },
+      "TextBox25": {
+        "styles": {
+          "paddingRight": "30px",
+          "paddingLeft": "50px"
+        }
+      },
+      "Image12": {
+        "styles": {
+          "left": 10
+        }
+      },
+      "TextBox28": {
+        "styles": {
+          "paddingLeft": "50px",
+          "paddingRight": "8px"
+        }
+      },
+      "Flex39": {
+        "styles": {
+          "paddingLeft": "15px"
+        }
+      },
+      "Flex75": {
+        "styles": {
+          "paddingLeft": "50px",
+          "width": "60%"
+        }
+      },
+      "Flex247": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "10px"
+        }
+      }
+    },
+    "991": {
+      "Flex1": {
+        "styles": {
+          "justifyContent": "space-between"
+        }
+      },
+      "Flex3": {
+        "styles": {
+          "display": "none"
+        }
+      },
+      "Menu2": {
+        "styles": {
+          "display": "flex",
+          "position": "relative",
+          "right": 50
+        }
+      }
+    }
+  },
   "about-us": {},
   "contact-us": {},
   "product": {},

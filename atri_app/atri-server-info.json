@@ -21,5 +21,7 @@
   },
   "publicUrlAssetMap": {
     "/app-assets": "../assets"
-  }
+  },
+  "organizationName": "Atri-Apps",
+  "projectName": "full_stack_ecommerce_website"
 }

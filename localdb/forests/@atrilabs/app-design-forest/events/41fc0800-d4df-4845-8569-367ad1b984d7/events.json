@@ -12441,5 +12441,95 @@
       }
     },
     "id": "bda016f2-f894-4f49-8fe9-f0995b6a4725"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "d5f816da-7264-425c-8e5d-0e97cbd6b8b5"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/about-us"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "c8145456-3f63-4a9f-a75e-7b1e45de612e"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/shop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "ea0a0bfb-40a4-41a0-99da-e6f86879bf6d"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/contact-us"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "ca16255a-ad47-4b4c-9110-e4888c9cc94a"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "83dd0c35-0355-40c7-8900-52b6ad88dcd5"
   }
 ]

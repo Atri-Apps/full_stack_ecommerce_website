@@ -49,7 +49,10 @@ export function useTextBox76Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/about-us"
+      }
     }
   ],
   "actions": [
@@ -65,7 +68,10 @@ export function useTextBox77Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/shop"
+      }
     }
   ],
   "actions": [
@@ -81,7 +87,10 @@ export function useTextBox78Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
     }
   ],
   "actions": [
@@ -97,7 +106,10 @@ export function useTextBox79Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/contact-us"
+      }
     }
   ],
   "actions": [
@@ -113,7 +125,10 @@ export function useTextBox80Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
     }
   ],
   "actions": [
