@@ -8,7 +8,10 @@ def set_data(at:Atri, max_len: int, start_indx: int):
     f = open('products.json')
     data = json.load(f)
     print("jatt")
-    for i, j in enumerate(data[start_indx:min(start_indx+max_len, len(data[start_indx:]))]):
+    for i, j in enumerate(data[start_indx:min(start_indx+max_len, len(data))]):
+        print(i, j)
+        instance: at.Card_1.__class__ = getattr(at, f'Card_{max_len-i}')
+        instance.styles.display = 'flex'
         #Price
         instance: at.Price_1.__class__ = getattr(at, f'Price_{max_len-i}')
         instance.custom.text = "$ " + j['price'] + f" USD"
@@ -20,7 +23,8 @@ def set_data(at:Atri, max_len: int, start_indx: int):
         #Name
         instance: at.Name_1.__class__ = getattr(at, f'Name_{max_len-i}')
         instance.custom.text = j['name']
-    left = max_len - len(data)
+    left = max_len - (min(start_indx+max_len, len(data)) - start_indx)
+    print(left)
     for i in range(left):
         instance: at.Card_1.__class__ = getattr(at, f'Card_{i+1}')
         instance.styles.display = 'none'
@@ -53,19 +57,17 @@ def handle_event(at: Atri, req: Request, res: Response):
     f = open('products.json')
     data = json.load(f)
     if at.Image105.onClick:
-        with open('data.txt', 'r') as f_data:
-            f_dt = f_data.read()
-        print("jatt ", f_dt)
-        if int(f_dt) == 0:
+        dt1, dt2 = map(int, at.TextBox215.custom.text.split()[1].split('-'))
+        if dt1 == 1:
             pass
         else:
-            set_data(at, 6, max(0, int(f_dt) - 6))
-            f_data.write(str(max(0, int(f_dt) - 6)))
+            set_data(at, 6, dt1 - 6 - 1)
+            at.TextBox215.custom.text = f'Products {dt1-6}-{dt1-1}'
     if at.Image106.onClick:
-        with open('data.txt', 'r') as f_data:
-            if int(f_data.read()) > len(data):
-                pass
-            else:
-                set_data(at, 6, min(len(data), int(f_data.read())))
-                f_data.write(str(max(0, int(f_data.read()) + 6)))
+        dt1, dt2 = map(int, at.TextBox215.custom.text.split()[1].split('-'))
+        if dt2 >= len(data):
+            pass
+        else:
+            set_data(at, 6, dt2 + 1 - 1)
+            at.TextBox215.custom.text = f'Products {dt2+1}-{min(dt2 + 1 + 6, len(data))}'
     pass

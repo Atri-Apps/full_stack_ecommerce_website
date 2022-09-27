@@ -7057,7 +7057,7 @@ const desktopModeProps = {
     "TextBox215": {
       "styles": {},
       "custom": {
-        "text": "Your text Here!"
+        "text": "Products 1-6"
       },
       "callbacks": {
         "onClick": [
