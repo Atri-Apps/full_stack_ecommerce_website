@@ -17,6 +17,9 @@
     },
     "/shop": {
       "name": "shop"
+    },
+    "/extra": {
+      "name": "extra"
     }
   },
   "publicUrlAssetMap": {

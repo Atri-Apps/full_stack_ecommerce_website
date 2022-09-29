@@ -5,6 +5,7 @@ import AboutUs from "./pages/About-us.jsx";
 import ContactUs from "./pages/Contact-us.jsx";
 import Product from "./pages/Product.jsx";
 import Shop from "./pages/Shop.jsx";
+import Extra from "./pages/Extra.jsx";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
 <Route path="/contact-us" element={<ContactUs />} />
 <Route path="/product" element={<Product />} />
 <Route path="/shop" element={<Shop />} />
+<Route path="/extra" element={<Extra />} />
     </Routes>
   );
 }

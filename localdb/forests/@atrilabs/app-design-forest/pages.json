@@ -18,5 +18,9 @@
   "92ead7a1-36a2-4eee-a243-689ca807c36c": {
     "name": "shop",
     "route": "/shop"
+  },
+  "3eba9a63-5df8-4b6f-af51-aa0654cb9dcf": {
+    "name": "extra",
+    "route": "/extra"
   }
 }

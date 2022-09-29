@@ -2450,3 +2450,1235 @@ export function useFlex247Cb() {
 }), [])
 	return { onClick }
 }
+export function useImage111Cb() {
+	const onClick = useCallback(callbackFactory("Image111", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox235Cb() {
+	const onClick = useCallback(callbackFactory("TextBox235", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex258Cb() {
+	const onClick = useCallback(callbackFactory("Flex258", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex259Cb() {
+	const onClick = useCallback(callbackFactory("Flex259", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex260Cb() {
+	const onClick = useCallback(callbackFactory("Flex260", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex261Cb() {
+	const onClick = useCallback(callbackFactory("Flex261", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage112Cb() {
+	const onClick = useCallback(callbackFactory("Image112", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox236Cb() {
+	const onClick = useCallback(callbackFactory("TextBox236", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex262Cb() {
+	const onClick = useCallback(callbackFactory("Flex262", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage113Cb() {
+	const onClick = useCallback(callbackFactory("Image113", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox237Cb() {
+	const onClick = useCallback(callbackFactory("TextBox237", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex266Cb() {
+	const onClick = useCallback(callbackFactory("Flex266", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex267Cb() {
+	const onClick = useCallback(callbackFactory("Flex267", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex268Cb() {
+	const onClick = useCallback(callbackFactory("Flex268", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex269Cb() {
+	const onClick = useCallback(callbackFactory("Flex269", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox250Cb() {
+	const onClick = useCallback(callbackFactory("TextBox250", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox251Cb() {
+	const onClick = useCallback(callbackFactory("TextBox251", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox252Cb() {
+	const onClick = useCallback(callbackFactory("TextBox252", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox253Cb() {
+	const onClick = useCallback(callbackFactory("TextBox253", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox254Cb() {
+	const onClick = useCallback(callbackFactory("TextBox254", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox255Cb() {
+	const onClick = useCallback(callbackFactory("TextBox255", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox256Cb() {
+	const onClick = useCallback(callbackFactory("TextBox256", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox257Cb() {
+	const onClick = useCallback(callbackFactory("TextBox257", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox258Cb() {
+	const onClick = useCallback(callbackFactory("TextBox258", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox259Cb() {
+	const onClick = useCallback(callbackFactory("TextBox259", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox260Cb() {
+	const onClick = useCallback(callbackFactory("TextBox260", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox261Cb() {
+	const onClick = useCallback(callbackFactory("TextBox261", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage118Cb() {
+	const onClick = useCallback(callbackFactory("Image118", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex283Cb() {
+	const onClick = useCallback(callbackFactory("Flex283", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useInput15Cb() {
+	const onChange = useCallback(callbackFactory("Input15", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onPressEnter = useCallback(callbackFactory("Input15", "Home", "/", "onPressEnter", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onPressEnter }
+}
+export function useImage119Cb() {
+	const onClick = useCallback(callbackFactory("Image119", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex284Cb() {
+	const onClick = useCallback(callbackFactory("Flex284", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useInput16Cb() {
+	const onChange = useCallback(callbackFactory("Input16", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onPressEnter = useCallback(callbackFactory("Input16", "Home", "/", "onPressEnter", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onPressEnter }
+}
+export function useImage120Cb() {
+	const onClick = useCallback(callbackFactory("Image120", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex285Cb() {
+	const onClick = useCallback(callbackFactory("Flex285", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useInput17Cb() {
+	const onChange = useCallback(callbackFactory("Input17", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onPressEnter = useCallback(callbackFactory("Input17", "Home", "/", "onPressEnter", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onPressEnter }
+}
+export function useInput18Cb() {
+	const onChange = useCallback(callbackFactory("Input18", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onPressEnter = useCallback(callbackFactory("Input18", "Home", "/", "onPressEnter", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onPressEnter }
+}
+export function useFlex286Cb() {
+	const onClick = useCallback(callbackFactory("Flex286", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage121Cb() {
+	const onClick = useCallback(callbackFactory("Image121", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage122Cb() {
+	const onClick = useCallback(callbackFactory("Image122", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox262Cb() {
+	const onClick = useCallback(callbackFactory("TextBox262", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex287Cb() {
+	const onClick = useCallback(callbackFactory("Flex287", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex288Cb() {
+	const onClick = useCallback(callbackFactory("Flex288", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex289Cb() {
+	const onClick = useCallback(callbackFactory("Flex289", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex290Cb() {
+	const onClick = useCallback(callbackFactory("Flex290", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex291Cb() {
+	const onClick = useCallback(callbackFactory("Flex291", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Name_1Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Name_1", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Remove_1Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Remove_1", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Price_1Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Price_1", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Name_2Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Name_2", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Remove_2Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Remove_2", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Price_2Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Price_2", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Name_3Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Name_3", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Remove_3Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Remove_3", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Price_3Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Price_3", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Price_4Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Price_4", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Remove_4Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Remove_4", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Name_4Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Name_4", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Image_1Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Image_1", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex295Cb() {
+	const onClick = useCallback(callbackFactory("Flex295", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Quantity_1Cb() {
+	const onChange = useCallback(callbackFactory("Cart_Card_Quantity_1", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onPressEnter = useCallback(callbackFactory("Cart_Card_Quantity_1", "Home", "/", "onPressEnter", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onPressEnter }
+}
+export function useCart_Card_Image_2Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Image_2", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex296Cb() {
+	const onClick = useCallback(callbackFactory("Flex296", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Quantity_2Cb() {
+	const onChange = useCallback(callbackFactory("Cart_Card_Quantity_2", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onPressEnter = useCallback(callbackFactory("Cart_Card_Quantity_2", "Home", "/", "onPressEnter", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onPressEnter }
+}
+export function useCart_Card_Image_3Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Image_3", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex297Cb() {
+	const onClick = useCallback(callbackFactory("Flex297", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Quantity_3Cb() {
+	const onChange = useCallback(callbackFactory("Cart_Card_Quantity_3", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onPressEnter = useCallback(callbackFactory("Cart_Card_Quantity_3", "Home", "/", "onPressEnter", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onPressEnter }
+}
+export function useCart_Card_Quantity_4Cb() {
+	const onChange = useCallback(callbackFactory("Cart_Card_Quantity_4", "Home", "/", "onChange", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "value"
+      ]
+    }
+  ]
+}), [])
+	const onPressEnter = useCallback(callbackFactory("Cart_Card_Quantity_4", "Home", "/", "onPressEnter", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onChange,onPressEnter }
+}
+export function useFlex298Cb() {
+	const onClick = useCallback(callbackFactory("Flex298", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_Image_4Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_Image_4", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage127Cb() {
+	const onClick = useCallback(callbackFactory("Image127", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox275Cb() {
+	const onClick = useCallback(callbackFactory("TextBox275", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_1Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_1", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_2Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_2", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_3Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_3", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCart_Card_4Cb() {
+	const onClick = useCallback(callbackFactory("Cart_Card_4", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex303Cb() {
+	const onClick = useCallback(callbackFactory("Flex303", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex304Cb() {
+	const onClick = useCallback(callbackFactory("Flex304", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex305Cb() {
+	const onClick = useCallback(callbackFactory("Flex305", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex306Cb() {
+	const onClick = useCallback(callbackFactory("Flex306", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
