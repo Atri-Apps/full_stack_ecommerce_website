@@ -3653,18 +3653,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex87": {
-      "styles": {
-        "display": "flex",
-        "columnGap": "10px",
-        "cursor": "pointer",
-        "paddingLeft": "10px",
-        "borderLeftWidth": "2px",
-        "borderLeftStyle": "solid",
-        "borderLeftColor": "#a4a4a4"
-      },
-      "callbacks": {}
-    },
     "TextBox76": {
       "styles": {
         "cursor": "pointer"
@@ -3759,23 +3747,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex88": {
-      "styles": {
-        "display": "flex",
-        "alignItems": "center",
-        "columnGap": "50px",
-        "paddingRight": "100px"
-      },
-      "callbacks": {}
-    },
-    "Flex89": {
-      "styles": {
-        "display": "flex",
-        "justifyContent": "center",
-        "alignItems": "center"
-      },
-      "callbacks": {}
-    },
     "Flex90": {
       "styles": {
         "display": "flex",
@@ -3787,7 +3758,8 @@ const desktopModeProps = {
         "bottom": null,
         "zIndex": null,
         "backgroundColor": "#ffffff",
-        "top": null
+        "top": null,
+        "alignItems": "center"
       },
       "callbacks": {}
     },
@@ -5047,6 +5019,178 @@ const desktopModeProps = {
         "paddingBottom": "90px"
       },
       "callbacks": {}
+    },
+    "Menu3": {
+      "styles": {
+        "display": "none"
+      },
+      "custom": {
+        "open": false,
+        "iconHeight": 24,
+        "iconWidth": 24,
+        "alignRight": true
+      },
+      "callbacks": {}
+    },
+    "Flex307": {
+      "styles": {
+        "display": "flex"
+      },
+      "callbacks": {}
+    },
+    "Image128": {
+      "styles": {
+        "width": "20px",
+        "height": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cart-svgrepo-com.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox276": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image129": {
+      "styles": {
+        "width": "20px",
+        "height": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cart-svgrepo-com.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox281": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex310": {
+      "styles": {
+        "display": "flex",
+        "columnGap": "10px",
+        "cursor": "pointer",
+        "paddingLeft": "10px",
+        "borderLeftWidth": "2px",
+        "borderLeftStyle": "solid",
+        "borderLeftColor": "#a4a4a4"
+      },
+      "callbacks": {}
+    },
+    "TextBox282": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox283": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox284": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox285": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "Flex311": {
+      "styles": {
+        "display": "flex",
+        "alignItems": "center",
+        "columnGap": "50px",
+        "paddingRight": "100px",
+        "marginRight": ""
+      },
+      "callbacks": {}
     }
   },
   "contact-us": {
@@ -6032,23 +6176,6 @@ const desktopModeProps = {
     }
   },
   "product": {
-    "Image77": {
-      "styles": {
-        "width": "20px",
-        "height": "20px"
-      },
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/cart-svgrepo-com.svg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox147": {
       "styles": {},
       "custom": {
@@ -6174,14 +6301,6 @@ const desktopModeProps = {
         "alignItems": "center",
         "columnGap": "50px",
         "paddingRight": "100px"
-      },
-      "callbacks": {}
-    },
-    "Flex169": {
-      "styles": {
-        "display": "flex",
-        "justifyContent": "center",
-        "alignItems": "center"
       },
       "callbacks": {}
     },
@@ -7056,10 +7175,37 @@ const desktopModeProps = {
           }
         ]
       }
-    }
-  },
-  "shop": {
-    "TextBox178": {
+    },
+    "Menu4": {
+      "styles": {
+        "display": "none"
+      },
+      "custom": {
+        "open": false,
+        "iconHeight": 24,
+        "iconWidth": 24,
+        "alignRight": true
+      },
+      "callbacks": {}
+    },
+    "Image130": {
+      "styles": {
+        "width": "20px",
+        "height": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cart-svgrepo-com.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox286": {
       "styles": {},
       "custom": {
         "text": "Cart"
@@ -7072,7 +7218,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image88": {
+    "Image131": {
       "styles": {
         "width": "20px",
         "height": "20px"
@@ -7080,6 +7226,246 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/cart-svgrepo-com.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox291": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex314": {
+      "styles": {
+        "display": "flex",
+        "columnGap": "10px",
+        "cursor": "pointer",
+        "paddingLeft": "10px",
+        "borderLeftWidth": "2px",
+        "borderLeftStyle": "solid",
+        "borderLeftColor": "#a4a4a4"
+      },
+      "callbacks": {}
+    },
+    "TextBox292": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox293": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox294": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox295": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "Flex315": {
+      "styles": {
+        "display": "flex",
+        "alignItems": "center",
+        "columnGap": "50px",
+        "paddingRight": "100px",
+        "marginRight": ""
+      },
+      "callbacks": {}
+    },
+    "TextBox306": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox307": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox308": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox309": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox310": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
+          }
+        ]
+      }
+    },
+    "Flex320": {
+      "styles": {
+        "display": "flex",
+        "columnGap": "10px",
+        "cursor": "pointer",
+        "paddingLeft": "10px",
+        "borderLeftWidth": "2px",
+        "borderLeftStyle": "solid",
+        "borderLeftColor": "#a4a4a4"
+      },
+      "callbacks": {}
+    },
+    "Flex321": {
+      "styles": {
+        "display": "flex",
+        "alignItems": "center",
+        "columnGap": "50px",
+        "paddingRight": "100px"
+      },
+      "callbacks": {}
+    },
+    "Menu6": {
+      "styles": {
+        "display": "none"
+      },
+      "custom": {
+        "open": false,
+        "iconHeight": 24,
+        "iconWidth": 24,
+        "alignRight": true
+      },
+      "callbacks": {}
+    }
+  },
+  "shop": {
+    "TextBox178": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
       },
       "callbacks": {
         "onClick": [
@@ -7195,14 +7581,6 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex200": {
-      "styles": {
-        "display": "flex",
-        "justifyContent": "center",
-        "alignItems": "center"
-      },
-      "callbacks": {}
-    },
     "Flex201": {
       "styles": {
         "display": "flex",
@@ -7218,7 +7596,8 @@ const desktopModeProps = {
         "justifyContent": "space-between",
         "paddingTop": "15px",
         "paddingBottom": "15px",
-        "position": "sticky"
+        "position": "sticky",
+        "alignItems": "center"
       },
       "callbacks": {}
     },
@@ -8437,6 +8816,172 @@ const desktopModeProps = {
           }
         ]
       }
+    },
+    "Menu5": {
+      "styles": {
+        "display": "none"
+      },
+      "custom": {
+        "open": false,
+        "iconHeight": 24,
+        "iconWidth": 24,
+        "alignRight": true
+      },
+      "callbacks": {}
+    },
+    "Image132": {
+      "styles": {
+        "width": "20px",
+        "height": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cart-svgrepo-com.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox296": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image133": {
+      "styles": {
+        "width": "20px",
+        "height": "20px"
+      },
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/cart-svgrepo-com.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox301": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Flex318": {
+      "styles": {
+        "display": "flex",
+        "columnGap": "10px",
+        "cursor": "pointer",
+        "paddingLeft": "10px",
+        "borderLeftWidth": "2px",
+        "borderLeftStyle": "solid",
+        "borderLeftColor": "#a4a4a4"
+      },
+      "callbacks": {}
+    },
+    "TextBox302": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox303": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox304": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/about-us"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox305": {
+      "styles": {
+        "cursor": "pointer"
+      },
+      "custom": {
+        "text": "Home"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "Flex319": {
+      "styles": {
+        "display": "flex",
+        "alignItems": "center",
+        "columnGap": "50px",
+        "paddingRight": "100px",
+        "marginRight": ""
+      },
+      "callbacks": {}
     }
   },
   "extra": {
@@ -9160,13 +9705,424 @@ const breakpointProps = {
           "position": "relative",
           "right": 50
         }
+      },
+      "Flex306": {
+        "styles": {
+          "display": "none"
+        }
       }
     }
   },
-  "about-us": {},
+  "about-us": {
+    "478": {
+      "TextBox80": {
+        "styles": {
+          "paddingLeft": "50px"
+        }
+      },
+      "Flex90": {
+        "styles": {
+          "alignItems": "center"
+        }
+      },
+      "Flex91": {
+        "styles": {
+          "alignItems": "center",
+          "justifyContent": "center"
+        }
+      },
+      "Flex92": {
+        "styles": {
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      },
+      "TextBox83": {
+        "styles": {
+          "maxWidth": "400px",
+          "width": "100%"
+        }
+      },
+      "Flex101": {
+        "styles": {
+          "width": "100%"
+        }
+      },
+      "Flex102": {
+        "styles": {
+          "width": "100%"
+        }
+      },
+      "Image63": {
+        "styles": {
+          "height": "450px"
+        }
+      },
+      "Flex128": {
+        "styles": {
+          "width": "400%"
+        }
+      },
+      "Flex129": {
+        "styles": {
+          "width": "100%"
+        }
+      },
+      "Flex131": {
+        "styles": {
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      },
+      "Menu3": {
+        "styles": {
+          "paddingRight": "40px"
+        }
+      }
+    },
+    "991": {
+      "Flex90": {
+        "styles": {
+          "alignItems": "center"
+        }
+      },
+      "Flex99": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "30px"
+        }
+      },
+      "Flex103": {
+        "styles": {
+          "flexDirection": "column",
+          "alignItems": "center",
+          "paddingLeft": "50px",
+          "paddingRight": "50px",
+          "rowGap": "40px"
+        }
+      },
+      "Flex105": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "40px"
+        }
+      },
+      "Flex131": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "200px"
+        }
+      },
+      "Flex135": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "30px"
+        }
+      },
+      "Menu3": {
+        "styles": {
+          "display": "flex",
+          "paddingRight": "40px"
+        }
+      },
+      "Flex307": {
+        "styles": {
+          "flexDirection": "column",
+          "backgroundColor": "#fffefe",
+          "rowGap": "7px",
+          "paddingLeft": "10px",
+          "paddingRight": "10px",
+          "paddingTop": "10px",
+          "paddingBottom": "10px"
+        }
+      },
+      "Flex311": {
+        "styles": {
+          "display": "none"
+        }
+      }
+    }
+  },
   "contact-us": {},
-  "product": {},
-  "shop": {},
+  "product": {
+    "478": {
+      "TextBox152": {
+        "styles": {
+          "paddingLeft": "50px"
+        }
+      },
+      "Flex170": {
+        "styles": {
+          "alignItems": "center"
+        }
+      },
+      "TextBox154": {
+        "styles": {
+          "maxWidth": "400px",
+          "width": "100%"
+        }
+      },
+      "Flex171": {
+        "styles": {
+          "alignItems": "flex-start",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      },
+      "Flex173": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "40px"
+        }
+      },
+      "Flex175": {
+        "styles": {
+          "paddingLeft": ""
+        }
+      },
+      "Flex194": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Flex195": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Flex196": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Flex197": {
+        "styles": {
+          "flexDirection": "column",
+          "alignItems": "center"
+        }
+      },
+      "Menu4": {
+        "styles": {
+          "boxSizing": "initial",
+          "paddingRight": "40px"
+        }
+      },
+      "Menu6": {
+        "styles": {
+          "boxSizing": "initial",
+          "paddingRight": "40px"
+        }
+      }
+    },
+    "767": {
+      "Flex167": {
+        "styles": {
+          "paddingLeft": ""
+        }
+      },
+      "Flex168": {
+        "styles": {
+          "paddingRight": "10px",
+          "marginRight": "",
+          "flexDirection": "column",
+          "backgroundColor": "#ffffff",
+          "rowGap": "7px",
+          "paddingLeft": "10px",
+          "paddingBottom": "10px",
+          "paddingTop": "10px"
+        }
+      },
+      "Flex170": {
+        "styles": {
+          "alignItems": "center"
+        }
+      },
+      "Flex173": {
+        "styles": {
+          "paddingRight": "50px",
+          "paddingLeft": "50px",
+          "boxSizing": "content-box"
+        }
+      },
+      "Flex197": {
+        "styles": {
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      },
+      "Menu4": {
+        "styles": {
+          "display": "flex",
+          "paddingRight": "40px"
+        }
+      },
+      "Flex320": {
+        "styles": {
+          "paddingLeft": ""
+        }
+      },
+      "Flex321": {
+        "styles": {
+          "paddingRight": "10px",
+          "marginRight": "",
+          "flexDirection": "column",
+          "backgroundColor": "#ffffff",
+          "rowGap": "7px",
+          "paddingLeft": "10px",
+          "paddingBottom": "10px",
+          "paddingTop": "10px"
+        }
+      },
+      "Menu6": {
+        "styles": {
+          "display": "none",
+          "paddingRight": "40px"
+        }
+      }
+    },
+    "991": {
+      "Flex170": {
+        "styles": {
+          "alignItems": "center"
+        }
+      },
+      "Flex315": {
+        "styles": {
+          "display": "none"
+        }
+      },
+      "Menu6": {
+        "styles": {
+          "display": "flex",
+          "paddingRight": "40px"
+        }
+      }
+    }
+  },
+  "shop": {
+    "478": {
+      "TextBox179": {
+        "styles": {
+          "paddingLeft": "50px"
+        }
+      },
+      "Flex202": {
+        "styles": {
+          "alignItems": "center"
+        }
+      },
+      "TextBox184": {
+        "styles": {
+          "maxWidth": "400px",
+          "width": "100%"
+        }
+      },
+      "Flex203": {
+        "styles": {
+          "alignItems": "flex-start",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      },
+      "Flex220": {
+        "styles": {
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      },
+      "Card_5": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Card_4": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Card_6": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Flex227": {
+        "styles": {
+          "flexDirection": "column",
+          "alignItems": "center"
+        }
+      },
+      "Card_2": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Card_1": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Card_3": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Flex234": {
+        "styles": {
+          "flexDirection": "column",
+          "alignItems": "center"
+        }
+      },
+      "Flex240": {
+        "styles": {
+          "maxWidth": "400px",
+          "width": "60%"
+        }
+      },
+      "TextBox217": {
+        "styles": {
+          "width": "75%"
+        }
+      },
+      "Menu5": {
+        "styles": {
+          "paddingRight": "40px"
+        }
+      }
+    },
+    "991": {
+      "Flex199": {
+        "styles": {
+          "paddingLeft": ""
+        }
+      },
+      "Flex201": {
+        "styles": {
+          "flexDirection": "column",
+          "paddingRight": "10px",
+          "backgroundColor": "#ffffff",
+          "paddingLeft": "10px",
+          "paddingBottom": "10px",
+          "paddingTop": "10px"
+        }
+      },
+      "Flex202": {
+        "styles": {
+          "alignItems": "center"
+        }
+      },
+      "Menu5": {
+        "styles": {
+          "display": "flex",
+          "paddingRight": "40px"
+        }
+      },
+      "Flex319": {
+        "styles": {
+          "display": "none"
+        }
+      }
+    }
+  },
   "extra": {}
 }};
 

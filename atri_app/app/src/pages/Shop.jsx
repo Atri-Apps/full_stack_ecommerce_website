@@ -5,12 +5,13 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { subscribeInternalNavigation } from "../utils/navigate";
 import {fetchPageProps} from "../utils/fetchPageProps"
 import { TextBox as TextBox4 } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
-import { Image as Image4 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Flex as Flex4 } from "@atrilabs/react-component-manifests/src/manifests/Flex/Flex.tsx";
+import { Image as Image4 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Input as Input3 } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
 import { Checkbox as Checkbox1 } from "@atrilabs/react-component-manifests/src/manifests/Checkbox/Checkbox.tsx";
 import { Button as Button3 } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
-import { useTextBox178Cb, useImage88Cb, useTextBox179Cb, useTextBox180Cb, useTextBox181Cb, useTextBox182Cb, useTextBox183Cb, useFlex199Cb, useFlex200Cb, useFlex201Cb, useFlex202Cb, useTextBox184Cb, useTextBox185Cb, useFlex203Cb, useFlex204Cb, useFlex205Cb, useTextBox186Cb, useTextBox187Cb, useImage89Cb, useImage90Cb, useImage91Cb, useImage92Cb, useImage93Cb, useImage94Cb, useTextBox188Cb, useFlex206Cb, useTextBox189Cb, useTextBox190Cb, useTextBox191Cb, useFlex207Cb, useTextBox192Cb, useTextBox193Cb, useFlex208Cb, useTextBox194Cb, useTextBox195Cb, useFlex209Cb, useTextBox196Cb, useFlex210Cb, useTextBox197Cb, useTextBox198Cb, useTextBox199Cb, useFlex211Cb, useFlex220Cb, useProd_image_5Cb, useProd_image_4Cb, useProd_image_6Cb, useFlex221Cb, useName_5Cb, usePrice_5Cb, useFlex222Cb, useName_4Cb, usePrice_4Cb, useName_6Cb, useFlex223Cb, usePrice_6Cb, useCard_5Cb, useCard_4Cb, useCard_6Cb, useFlex227Cb, useProd_image_2Cb, useProd_image_1Cb, useProd_image_3Cb, useFlex228Cb, useName_2Cb, usePrice_2Cb, useFlex229Cb, useName_1Cb, usePrice_1Cb, useName_3Cb, useFlex230Cb, usePrice_3Cb, useCard_2Cb, useCard_1Cb, useCard_3Cb, useFlex234Cb, useInput8Cb, useImage101Cb, useTextBox212Cb, useCheckbox2Cb, useButton9Cb, useFlex235Cb, useFlex239Cb, useTextBox215Cb, useImage103Cb, useInput9Cb, useFlex240Cb, useButton10Cb, useCheckbox3Cb, useTextBox216Cb, useImage104Cb, useTextBox217Cb, useTextBox218Cb, useFlex241Cb, useFlex242Cb, useFlex243Cb, useImage105Cb, useImage106Cb } from "../page-cbs/shop";
+import { Menu as Menu3 } from "@atrilabs/react-component-manifests/src/manifests/Menu/Menu.tsx";
+import { useTextBox178Cb, useTextBox179Cb, useTextBox180Cb, useTextBox181Cb, useTextBox182Cb, useTextBox183Cb, useFlex199Cb, useFlex201Cb, useFlex202Cb, useTextBox184Cb, useTextBox185Cb, useFlex203Cb, useFlex204Cb, useFlex205Cb, useTextBox186Cb, useTextBox187Cb, useImage89Cb, useImage90Cb, useImage91Cb, useImage92Cb, useImage93Cb, useImage94Cb, useTextBox188Cb, useFlex206Cb, useTextBox189Cb, useTextBox190Cb, useTextBox191Cb, useFlex207Cb, useTextBox192Cb, useTextBox193Cb, useFlex208Cb, useTextBox194Cb, useTextBox195Cb, useFlex209Cb, useTextBox196Cb, useFlex210Cb, useTextBox197Cb, useTextBox198Cb, useTextBox199Cb, useFlex211Cb, useFlex220Cb, useProd_image_5Cb, useProd_image_4Cb, useProd_image_6Cb, useFlex221Cb, useName_5Cb, usePrice_5Cb, useFlex222Cb, useName_4Cb, usePrice_4Cb, useName_6Cb, useFlex223Cb, usePrice_6Cb, useCard_5Cb, useCard_4Cb, useCard_6Cb, useFlex227Cb, useProd_image_2Cb, useProd_image_1Cb, useProd_image_3Cb, useFlex228Cb, useName_2Cb, usePrice_2Cb, useFlex229Cb, useName_1Cb, usePrice_1Cb, useName_3Cb, useFlex230Cb, usePrice_3Cb, useCard_2Cb, useCard_1Cb, useCard_3Cb, useFlex234Cb, useInput8Cb, useImage101Cb, useTextBox212Cb, useCheckbox2Cb, useButton9Cb, useFlex235Cb, useFlex239Cb, useTextBox215Cb, useImage103Cb, useInput9Cb, useFlex240Cb, useButton10Cb, useCheckbox3Cb, useTextBox216Cb, useImage104Cb, useTextBox217Cb, useTextBox218Cb, useFlex241Cb, useFlex242Cb, useFlex243Cb, useImage105Cb, useImage106Cb, useMenu5Cb, useImage132Cb, useTextBox296Cb, useImage133Cb, useTextBox301Cb, useFlex318Cb, useTextBox302Cb, useTextBox303Cb, useTextBox304Cb, useTextBox305Cb, useFlex319Cb } from "../page-cbs/shop";
 
 export default function Shop() {
   const navigate = useNavigate();
@@ -45,9 +46,6 @@ export default function Shop() {
   const TextBox178Props = useStore((state)=>state["shop"]["TextBox178"]);
 const TextBox178IoProps = useIoStore((state)=>state["shop"]["TextBox178"]);
 const TextBox178Cb = useTextBox178Cb()
-const Image88Props = useStore((state)=>state["shop"]["Image88"]);
-const Image88IoProps = useIoStore((state)=>state["shop"]["Image88"]);
-const Image88Cb = useImage88Cb()
 const TextBox179Props = useStore((state)=>state["shop"]["TextBox179"]);
 const TextBox179IoProps = useIoStore((state)=>state["shop"]["TextBox179"]);
 const TextBox179Cb = useTextBox179Cb()
@@ -66,9 +64,6 @@ const TextBox183Cb = useTextBox183Cb()
 const Flex199Props = useStore((state)=>state["shop"]["Flex199"]);
 const Flex199IoProps = useIoStore((state)=>state["shop"]["Flex199"]);
 const Flex199Cb = useFlex199Cb()
-const Flex200Props = useStore((state)=>state["shop"]["Flex200"]);
-const Flex200IoProps = useIoStore((state)=>state["shop"]["Flex200"]);
-const Flex200Cb = useFlex200Cb()
 const Flex201Props = useStore((state)=>state["shop"]["Flex201"]);
 const Flex201IoProps = useIoStore((state)=>state["shop"]["Flex201"]);
 const Flex201Cb = useFlex201Cb()
@@ -333,20 +328,62 @@ const Image105Cb = useImage105Cb()
 const Image106Props = useStore((state)=>state["shop"]["Image106"]);
 const Image106IoProps = useIoStore((state)=>state["shop"]["Image106"]);
 const Image106Cb = useImage106Cb()
+const Menu5Props = useStore((state)=>state["shop"]["Menu5"]);
+const Menu5IoProps = useIoStore((state)=>state["shop"]["Menu5"]);
+const Menu5Cb = useMenu5Cb()
+const Image132Props = useStore((state)=>state["shop"]["Image132"]);
+const Image132IoProps = useIoStore((state)=>state["shop"]["Image132"]);
+const Image132Cb = useImage132Cb()
+const TextBox296Props = useStore((state)=>state["shop"]["TextBox296"]);
+const TextBox296IoProps = useIoStore((state)=>state["shop"]["TextBox296"]);
+const TextBox296Cb = useTextBox296Cb()
+const Image133Props = useStore((state)=>state["shop"]["Image133"]);
+const Image133IoProps = useIoStore((state)=>state["shop"]["Image133"]);
+const Image133Cb = useImage133Cb()
+const TextBox301Props = useStore((state)=>state["shop"]["TextBox301"]);
+const TextBox301IoProps = useIoStore((state)=>state["shop"]["TextBox301"]);
+const TextBox301Cb = useTextBox301Cb()
+const Flex318Props = useStore((state)=>state["shop"]["Flex318"]);
+const Flex318IoProps = useIoStore((state)=>state["shop"]["Flex318"]);
+const Flex318Cb = useFlex318Cb()
+const TextBox302Props = useStore((state)=>state["shop"]["TextBox302"]);
+const TextBox302IoProps = useIoStore((state)=>state["shop"]["TextBox302"]);
+const TextBox302Cb = useTextBox302Cb()
+const TextBox303Props = useStore((state)=>state["shop"]["TextBox303"]);
+const TextBox303IoProps = useIoStore((state)=>state["shop"]["TextBox303"]);
+const TextBox303Cb = useTextBox303Cb()
+const TextBox304Props = useStore((state)=>state["shop"]["TextBox304"]);
+const TextBox304IoProps = useIoStore((state)=>state["shop"]["TextBox304"]);
+const TextBox304Cb = useTextBox304Cb()
+const TextBox305Props = useStore((state)=>state["shop"]["TextBox305"]);
+const TextBox305IoProps = useIoStore((state)=>state["shop"]["TextBox305"]);
+const TextBox305Cb = useTextBox305Cb()
+const Flex319Props = useStore((state)=>state["shop"]["Flex319"]);
+const Flex319IoProps = useIoStore((state)=>state["shop"]["Flex319"]);
+const Flex319Cb = useFlex319Cb()
 
   return (<>
   <Flex4 {...Flex202Props} {...Flex202Cb} {...Flex202IoProps}>
-<Flex4 {...Flex200Props} {...Flex200Cb} {...Flex200IoProps}>
 <TextBox4 {...TextBox179Props} {...TextBox179Cb} {...TextBox179IoProps}/>
-</Flex4>
+<Menu3 {...Menu5Props} {...Menu5Cb} {...Menu5IoProps}>
 <Flex4 {...Flex201Props} {...Flex201Cb} {...Flex201IoProps}>
 <TextBox4 {...TextBox181Props} {...TextBox181Cb} {...TextBox181IoProps}/>
 <TextBox4 {...TextBox183Props} {...TextBox183Cb} {...TextBox183IoProps}/>
 <TextBox4 {...TextBox182Props} {...TextBox182Cb} {...TextBox182IoProps}/>
 <TextBox4 {...TextBox180Props} {...TextBox180Cb} {...TextBox180IoProps}/>
 <Flex4 {...Flex199Props} {...Flex199Cb} {...Flex199IoProps}>
-<Image4 {...Image88Props} {...Image88Cb} {...Image88IoProps}/>
 <TextBox4 {...TextBox178Props} {...TextBox178Cb} {...TextBox178IoProps}/>
+</Flex4>
+</Flex4>
+</Menu3>
+<Flex4 {...Flex319Props} {...Flex319Cb} {...Flex319IoProps}>
+<TextBox4 {...TextBox305Props} {...TextBox305Cb} {...TextBox305IoProps}/>
+<TextBox4 {...TextBox304Props} {...TextBox304Cb} {...TextBox304IoProps}/>
+<TextBox4 {...TextBox303Props} {...TextBox303Cb} {...TextBox303IoProps}/>
+<TextBox4 {...TextBox302Props} {...TextBox302Cb} {...TextBox302IoProps}/>
+<Flex4 {...Flex318Props} {...Flex318Cb} {...Flex318IoProps}>
+<Image4 {...Image133Props} {...Image133Cb} {...Image133IoProps}/>
+<TextBox4 {...TextBox301Props} {...TextBox301Cb} {...TextBox301IoProps}/>
 </Flex4>
 </Flex4>
 </Flex4>

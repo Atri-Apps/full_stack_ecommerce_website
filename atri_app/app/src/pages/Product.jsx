@@ -4,12 +4,13 @@ import useIoStore from "../hooks/useIoStore";
 import { useNavigate, useLocation } from "react-router-dom";
 import { subscribeInternalNavigation } from "../utils/navigate";
 import {fetchPageProps} from "../utils/fetchPageProps"
-import { Image as Image3 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { TextBox as TextBox3 } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Flex as Flex3 } from "@atrilabs/react-component-manifests/src/manifests/Flex/Flex.tsx";
+import { Image as Image3 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Input as Input2 } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
 import { Button as Button2 } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
-import { useImage77Cb, useTextBox147Cb, useFlex167Cb, useTextBox148Cb, useTextBox149Cb, useTextBox150Cb, useTextBox151Cb, useTextBox152Cb, useFlex168Cb, useFlex169Cb, useFlex170Cb, useTextBox153Cb, useTextBox154Cb, useFlex171Cb, useFlex172Cb, useFlex173Cb, useFlex174Cb, useFlex175Cb, useImage78Cb, useTextBox155Cb, useTextBox156Cb, useTextBox157Cb, useTextBox158Cb, useTextBox159Cb, useTextBox160Cb, useFlex176Cb, useTextBox161Cb, useTextBox162Cb, useInput7Cb, useButton6Cb, useFlex179Cb, useTextBox163Cb, useFlex180Cb, useTextBox164Cb, useImage79Cb, useImage80Cb, useImage81Cb, useFlex181Cb, useImage82Cb, useImage83Cb, useImage84Cb, useTextBox165Cb, useTextBox166Cb, useFlex182Cb, useTextBox167Cb, useFlex183Cb, useTextBox168Cb, useTextBox169Cb, useTextBox170Cb, useFlex184Cb, useFlex190Cb, useTextBox171Cb, useImage85Cb, useImage86Cb, useImage87Cb, useTextBox172Cb, useTextBox173Cb, useFlex191Cb, useTextBox174Cb, useFlex192Cb, useTextBox175Cb, useTextBox176Cb, useTextBox177Cb, useFlex193Cb, useFlex194Cb, useFlex195Cb, useFlex196Cb, useFlex197Cb, useFlex198Cb, useButton7Cb } from "../page-cbs/product";
+import { Menu as Menu2 } from "@atrilabs/react-component-manifests/src/manifests/Menu/Menu.tsx";
+import { useTextBox147Cb, useFlex167Cb, useTextBox148Cb, useTextBox149Cb, useTextBox150Cb, useTextBox151Cb, useTextBox152Cb, useFlex168Cb, useFlex170Cb, useTextBox153Cb, useTextBox154Cb, useFlex171Cb, useFlex172Cb, useFlex173Cb, useFlex174Cb, useFlex175Cb, useImage78Cb, useTextBox155Cb, useTextBox156Cb, useTextBox157Cb, useTextBox158Cb, useTextBox159Cb, useTextBox160Cb, useFlex176Cb, useTextBox161Cb, useTextBox162Cb, useInput7Cb, useButton6Cb, useFlex179Cb, useTextBox163Cb, useFlex180Cb, useTextBox164Cb, useImage79Cb, useImage80Cb, useImage81Cb, useFlex181Cb, useImage82Cb, useImage83Cb, useImage84Cb, useTextBox165Cb, useTextBox166Cb, useFlex182Cb, useTextBox167Cb, useFlex183Cb, useTextBox168Cb, useTextBox169Cb, useTextBox170Cb, useFlex184Cb, useFlex190Cb, useTextBox171Cb, useImage85Cb, useImage86Cb, useImage87Cb, useTextBox172Cb, useTextBox173Cb, useFlex191Cb, useTextBox174Cb, useFlex192Cb, useTextBox175Cb, useTextBox176Cb, useTextBox177Cb, useFlex193Cb, useFlex194Cb, useFlex195Cb, useFlex196Cb, useFlex197Cb, useFlex198Cb, useButton7Cb, useMenu4Cb, useImage130Cb, useTextBox286Cb, useImage131Cb, useTextBox291Cb, useFlex314Cb, useTextBox292Cb, useTextBox293Cb, useTextBox294Cb, useTextBox295Cb, useFlex315Cb, useTextBox306Cb, useTextBox307Cb, useTextBox308Cb, useTextBox309Cb, useTextBox310Cb, useFlex320Cb, useFlex321Cb, useMenu6Cb } from "../page-cbs/product";
 
 export default function Product() {
   const navigate = useNavigate();
@@ -41,10 +42,7 @@ export default function Product() {
     }
   }, [])
 
-  const Image77Props = useStore((state)=>state["product"]["Image77"]);
-const Image77IoProps = useIoStore((state)=>state["product"]["Image77"]);
-const Image77Cb = useImage77Cb()
-const TextBox147Props = useStore((state)=>state["product"]["TextBox147"]);
+  const TextBox147Props = useStore((state)=>state["product"]["TextBox147"]);
 const TextBox147IoProps = useIoStore((state)=>state["product"]["TextBox147"]);
 const TextBox147Cb = useTextBox147Cb()
 const Flex167Props = useStore((state)=>state["product"]["Flex167"]);
@@ -68,9 +66,6 @@ const TextBox152Cb = useTextBox152Cb()
 const Flex168Props = useStore((state)=>state["product"]["Flex168"]);
 const Flex168IoProps = useIoStore((state)=>state["product"]["Flex168"]);
 const Flex168Cb = useFlex168Cb()
-const Flex169Props = useStore((state)=>state["product"]["Flex169"]);
-const Flex169IoProps = useIoStore((state)=>state["product"]["Flex169"]);
-const Flex169Cb = useFlex169Cb()
 const Flex170Props = useStore((state)=>state["product"]["Flex170"]);
 const Flex170IoProps = useIoStore((state)=>state["product"]["Flex170"]);
 const Flex170Cb = useFlex170Cb()
@@ -251,22 +246,99 @@ const Flex198Cb = useFlex198Cb()
 const Button7Props = useStore((state)=>state["product"]["Button7"]);
 const Button7IoProps = useIoStore((state)=>state["product"]["Button7"]);
 const Button7Cb = useButton7Cb()
+const Menu4Props = useStore((state)=>state["product"]["Menu4"]);
+const Menu4IoProps = useIoStore((state)=>state["product"]["Menu4"]);
+const Menu4Cb = useMenu4Cb()
+const Image130Props = useStore((state)=>state["product"]["Image130"]);
+const Image130IoProps = useIoStore((state)=>state["product"]["Image130"]);
+const Image130Cb = useImage130Cb()
+const TextBox286Props = useStore((state)=>state["product"]["TextBox286"]);
+const TextBox286IoProps = useIoStore((state)=>state["product"]["TextBox286"]);
+const TextBox286Cb = useTextBox286Cb()
+const Image131Props = useStore((state)=>state["product"]["Image131"]);
+const Image131IoProps = useIoStore((state)=>state["product"]["Image131"]);
+const Image131Cb = useImage131Cb()
+const TextBox291Props = useStore((state)=>state["product"]["TextBox291"]);
+const TextBox291IoProps = useIoStore((state)=>state["product"]["TextBox291"]);
+const TextBox291Cb = useTextBox291Cb()
+const Flex314Props = useStore((state)=>state["product"]["Flex314"]);
+const Flex314IoProps = useIoStore((state)=>state["product"]["Flex314"]);
+const Flex314Cb = useFlex314Cb()
+const TextBox292Props = useStore((state)=>state["product"]["TextBox292"]);
+const TextBox292IoProps = useIoStore((state)=>state["product"]["TextBox292"]);
+const TextBox292Cb = useTextBox292Cb()
+const TextBox293Props = useStore((state)=>state["product"]["TextBox293"]);
+const TextBox293IoProps = useIoStore((state)=>state["product"]["TextBox293"]);
+const TextBox293Cb = useTextBox293Cb()
+const TextBox294Props = useStore((state)=>state["product"]["TextBox294"]);
+const TextBox294IoProps = useIoStore((state)=>state["product"]["TextBox294"]);
+const TextBox294Cb = useTextBox294Cb()
+const TextBox295Props = useStore((state)=>state["product"]["TextBox295"]);
+const TextBox295IoProps = useIoStore((state)=>state["product"]["TextBox295"]);
+const TextBox295Cb = useTextBox295Cb()
+const Flex315Props = useStore((state)=>state["product"]["Flex315"]);
+const Flex315IoProps = useIoStore((state)=>state["product"]["Flex315"]);
+const Flex315Cb = useFlex315Cb()
+const TextBox306Props = useStore((state)=>state["product"]["TextBox306"]);
+const TextBox306IoProps = useIoStore((state)=>state["product"]["TextBox306"]);
+const TextBox306Cb = useTextBox306Cb()
+const TextBox307Props = useStore((state)=>state["product"]["TextBox307"]);
+const TextBox307IoProps = useIoStore((state)=>state["product"]["TextBox307"]);
+const TextBox307Cb = useTextBox307Cb()
+const TextBox308Props = useStore((state)=>state["product"]["TextBox308"]);
+const TextBox308IoProps = useIoStore((state)=>state["product"]["TextBox308"]);
+const TextBox308Cb = useTextBox308Cb()
+const TextBox309Props = useStore((state)=>state["product"]["TextBox309"]);
+const TextBox309IoProps = useIoStore((state)=>state["product"]["TextBox309"]);
+const TextBox309Cb = useTextBox309Cb()
+const TextBox310Props = useStore((state)=>state["product"]["TextBox310"]);
+const TextBox310IoProps = useIoStore((state)=>state["product"]["TextBox310"]);
+const TextBox310Cb = useTextBox310Cb()
+const Flex320Props = useStore((state)=>state["product"]["Flex320"]);
+const Flex320IoProps = useIoStore((state)=>state["product"]["Flex320"]);
+const Flex320Cb = useFlex320Cb()
+const Flex321Props = useStore((state)=>state["product"]["Flex321"]);
+const Flex321IoProps = useIoStore((state)=>state["product"]["Flex321"]);
+const Flex321Cb = useFlex321Cb()
+const Menu6Props = useStore((state)=>state["product"]["Menu6"]);
+const Menu6IoProps = useIoStore((state)=>state["product"]["Menu6"]);
+const Menu6Cb = useMenu6Cb()
 
   return (<>
   <Flex3 {...Flex170Props} {...Flex170Cb} {...Flex170IoProps}>
-<Flex3 {...Flex169Props} {...Flex169Cb} {...Flex169IoProps}>
 <TextBox3 {...TextBox152Props} {...TextBox152Cb} {...TextBox152IoProps}/>
+<Flex3 {...Flex315Props} {...Flex315Cb} {...Flex315IoProps}>
+<TextBox3 {...TextBox295Props} {...TextBox295Cb} {...TextBox295IoProps}/>
+<TextBox3 {...TextBox294Props} {...TextBox294Cb} {...TextBox294IoProps}/>
+<TextBox3 {...TextBox293Props} {...TextBox293Cb} {...TextBox293IoProps}/>
+<TextBox3 {...TextBox292Props} {...TextBox292Cb} {...TextBox292IoProps}/>
+<Flex3 {...Flex314Props} {...Flex314Cb} {...Flex314IoProps}>
+<Image3 {...Image131Props} {...Image131Cb} {...Image131IoProps}/>
+<TextBox3 {...TextBox291Props} {...TextBox291Cb} {...TextBox291IoProps}/>
 </Flex3>
+</Flex3>
+<Menu2 {...Menu4Props} {...Menu4Cb} {...Menu4IoProps}>
 <Flex3 {...Flex168Props} {...Flex168Cb} {...Flex168IoProps}>
 <TextBox3 {...TextBox150Props} {...TextBox150Cb} {...TextBox150IoProps}/>
 <TextBox3 {...TextBox148Props} {...TextBox148Cb} {...TextBox148IoProps}/>
 <TextBox3 {...TextBox149Props} {...TextBox149Cb} {...TextBox149IoProps}/>
 <TextBox3 {...TextBox151Props} {...TextBox151Cb} {...TextBox151IoProps}/>
 <Flex3 {...Flex167Props} {...Flex167Cb} {...Flex167IoProps}>
-<Image3 {...Image77Props} {...Image77Cb} {...Image77IoProps}/>
 <TextBox3 {...TextBox147Props} {...TextBox147Cb} {...TextBox147IoProps}/>
 </Flex3>
 </Flex3>
+</Menu2>
+<Menu2 {...Menu6Props} {...Menu6Cb} {...Menu6IoProps}>
+<Flex3 {...Flex321Props} {...Flex321Cb} {...Flex321IoProps}>
+<TextBox3 {...TextBox308Props} {...TextBox308Cb} {...TextBox308IoProps}/>
+<TextBox3 {...TextBox310Props} {...TextBox310Cb} {...TextBox310IoProps}/>
+<TextBox3 {...TextBox309Props} {...TextBox309Cb} {...TextBox309IoProps}/>
+<TextBox3 {...TextBox307Props} {...TextBox307Cb} {...TextBox307IoProps}/>
+<Flex3 {...Flex320Props} {...Flex320Cb} {...Flex320IoProps}>
+<TextBox3 {...TextBox306Props} {...TextBox306Cb} {...TextBox306IoProps}/>
+</Flex3>
+</Flex3>
+</Menu2>
 </Flex3>
 <Flex3 {...Flex172Props} {...Flex172Cb} {...Flex172IoProps}>
 <Flex3 {...Flex171Props} {...Flex171Cb} {...Flex171IoProps}>

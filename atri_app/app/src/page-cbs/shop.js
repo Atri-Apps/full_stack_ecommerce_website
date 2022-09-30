@@ -16,22 +16,6 @@ export function useTextBox178Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage88Cb() {
-	const onClick = useCallback(callbackFactory("Image88", "shop", "/shop", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useTextBox179Cb() {
 	const onClick = useCallback(callbackFactory("TextBox179", "shop", "/shop", "onClick", 
 			{
@@ -129,18 +113,6 @@ export function useTextBox183Cb() {
 }
 export function useFlex199Cb() {
 	const onClick = useCallback(callbackFactory("Flex199", "shop", "/shop", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex200Cb() {
-	const onClick = useCallback(callbackFactory("Flex200", "shop", "/shop", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -1441,6 +1413,186 @@ export function useImage106Cb() {
       "sendEventData": true
     }
   ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useMenu5Cb() {
+	const onClick = useCallback(callbackFactory("Menu5", "shop", "/shop", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "open"
+      ]
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage132Cb() {
+	const onClick = useCallback(callbackFactory("Image132", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox296Cb() {
+	const onClick = useCallback(callbackFactory("TextBox296", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage133Cb() {
+	const onClick = useCallback(callbackFactory("Image133", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox301Cb() {
+	const onClick = useCallback(callbackFactory("TextBox301", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex318Cb() {
+	const onClick = useCallback(callbackFactory("Flex318", "shop", "/shop", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox302Cb() {
+	const onClick = useCallback(callbackFactory("TextBox302", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/contact-us"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox303Cb() {
+	const onClick = useCallback(callbackFactory("TextBox303", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/shop"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox304Cb() {
+	const onClick = useCallback(callbackFactory("TextBox304", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/about-us"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox305Cb() {
+	const onClick = useCallback(callbackFactory("TextBox305", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex319Cb() {
+	const onClick = useCallback(callbackFactory("Flex319", "shop", "/shop", "onClick", 
+			{
+  "handlers": [],
   "actions": [
     {
       "type": "do_nothing"

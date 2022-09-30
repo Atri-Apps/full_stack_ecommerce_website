@@ -57150,5 +57150,31 @@
       }
     },
     "id": "c9c4cb07-b106-4ac7-99a8-279985258df1"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "991": {
+          "property": {
+            "styles": {
+              "display": "none"
+            }
+          }
+        }
+      }
+    },
+    "id": "7bbf9d11-0bac-4ac6-bc8c-2491c29d6ea1"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "display": "none"
+        }
+      }
+    },
+    "id": "7bbf9d11-0bac-4ac6-bc8c-2491c29d6ea1"
   }
 ]
