@@ -4,7 +4,7 @@ Full Stack Ecommerce Website with dynamic product's and pagination support.
 - Frontend, backend and deployment accomplished using Atri framework
 
 ## Deployed app
-https://atri-apps.github.io/full_stack_ecommerce_website/shop
+https://atri-apps.github.io/full_stack_ecommerce_website
 
 ## How to use this app?
 
