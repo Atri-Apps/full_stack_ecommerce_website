@@ -53,7 +53,8 @@ const desktopModeProps = {
         "float": "left",
         "clear": "none",
         "bottom": null,
-        "width": "100%"
+        "width": "100%",
+        "boxSizing": "border-box"
       },
       "callbacks": {}
     },
@@ -1677,7 +1678,8 @@ const desktopModeProps = {
         "paddingLeft": "150px",
         "justifyContent": "center",
         "paddingTop": "30px",
-        "paddingBottom": "30px"
+        "paddingBottom": "30px",
+        "boxSizing": "border-box"
       },
       "callbacks": {}
     },
@@ -2342,10 +2344,11 @@ const desktopModeProps = {
     "Menu2": {
       "styles": {
         "display": "none",
-        "alignItems": "center"
+        "alignItems": "center",
+        "flexDirection": "row"
       },
       "custom": {
-        "open": true,
+        "open": false,
         "iconHeight": 24,
         "iconWidth": 24,
         "alignRight": true,
@@ -2454,7 +2457,8 @@ const desktopModeProps = {
         "paddingLeft": "",
         "borderLeftWidth": "2px",
         "borderLeftStyle": "solid",
-        "borderLeftColor": "#a4a4a4"
+        "borderLeftColor": "#a4a4a4",
+        "flexDirection": "column"
       },
       "callbacks": {}
     },
@@ -5522,7 +5526,7 @@ const desktopModeProps = {
     },
     "TextBox133": {
       "styles": {
-        "width": "33%",
+        "width": "200px",
         "fontFamily": "Open Sans",
         "fontWeight": 600,
         "fontSize": "30px",
@@ -7533,7 +7537,7 @@ const desktopModeProps = {
         "display": "flex",
         "alignItems": "center",
         "columnGap": "50px",
-        "paddingRight": "100px"
+        "paddingRight": ""
       },
       "callbacks": {}
     },
@@ -8769,7 +8773,7 @@ const desktopModeProps = {
         "display": "none"
       },
       "custom": {
-        "open": true,
+        "open": false,
         "iconHeight": 24,
         "iconWidth": 24,
         "alignRight": true
@@ -9518,7 +9522,8 @@ const breakpointProps = {
       },
       "Flex74": {
         "styles": {
-          "flexDirection": "column"
+          "flexDirection": "column",
+          "boxSizing": "border-box"
         }
       },
       "Flex75": {
@@ -9566,7 +9571,9 @@ const breakpointProps = {
           "backgroundColor": "",
           "width": "100%",
           "borderLeftStyle": "none",
-          "borderLeftWidth": "px"
+          "borderLeftWidth": "px",
+          "alignItems": "flex-end",
+          "rowGap": "10px"
         }
       }
     },
@@ -9646,14 +9653,16 @@ const breakpointProps = {
         "styles": {
           "flexDirection": "column",
           "rowGap": "10px",
-          "borderLeftWidth": "px"
+          "borderLeftWidth": "px",
+          "alignItems": "flex-end"
         }
       }
     },
     "991": {
       "Flex1": {
         "styles": {
-          "justifyContent": "space-between"
+          "justifyContent": "space-between",
+          "zIndex": null
         }
       },
       "Flex3": {
@@ -9679,7 +9688,8 @@ const breakpointProps = {
           "paddingTop": "10px",
           "paddingBottom": "10px",
           "borderLeftWidth": "px",
-          "borderLeftColor": ""
+          "borderLeftColor": "",
+          "alignItems": "flex-end"
         }
       },
       "Flex306": {
@@ -9693,12 +9703,15 @@ const breakpointProps = {
     "478": {
       "TextBox80": {
         "styles": {
-          "paddingLeft": "50px"
+          "paddingLeft": ""
         }
       },
       "Flex90": {
         "styles": {
-          "alignItems": "center"
+          "alignItems": "center",
+          "paddingRight": "50px",
+          "paddingLeft": "50px",
+          "boxSizing": "border-box"
         }
       },
       "Flex91": {
@@ -9752,14 +9765,18 @@ const breakpointProps = {
       },
       "Menu3": {
         "styles": {
-          "paddingRight": "40px"
+          "paddingRight": "",
+          "paddingTop": "",
+          "display": "flex"
         }
       }
     },
     "991": {
       "Flex90": {
         "styles": {
-          "alignItems": "center"
+          "alignItems": "center",
+          "paddingRight": "40px",
+          "boxSizing": "border-box"
         }
       },
       "Flex99": {
@@ -9798,7 +9815,7 @@ const breakpointProps = {
       "Menu3": {
         "styles": {
           "display": "flex",
-          "paddingRight": "40px"
+          "paddingRight": ""
         }
       },
       "Flex307": {
@@ -9820,7 +9837,100 @@ const breakpointProps = {
     }
   },
   "contact-us": {
+    "478": {
+      "TextBox124": {
+        "styles": {
+          "width": "300px"
+        }
+      },
+      "TextBox127": {
+        "styles": {
+          "paddingTop": ""
+        }
+      },
+      "TextBox129": {
+        "styles": {
+          "paddingTop": ""
+        }
+      },
+      "TextBox131": {
+        "styles": {
+          "paddingTop": ""
+        }
+      },
+      "Flex143": {
+        "styles": {
+          "rowGap": "px"
+        }
+      },
+      "Flex144": {
+        "styles": {
+          "rowGap": "px"
+        }
+      },
+      "Flex145": {
+        "styles": {
+          "rowGap": "px"
+        }
+      },
+      "Flex146": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "14px"
+        }
+      },
+      "Flex148": {
+        "styles": {
+          "display": "none"
+        }
+      },
+      "TextBox146": {
+        "styles": {
+          "width": "100%"
+        }
+      },
+      "Flex166": {
+        "styles": {
+          "boxSizing": "border-box"
+        }
+      },
+      "Menu7": {
+        "styles": {
+          "alignItems": "center",
+          "display": "flex",
+          "paddingRight": "50px"
+        }
+      }
+    },
+    "767": {
+      "TextBox140": {
+        "styles": {
+          "paddingTop": ""
+        }
+      },
+      "TextBox142": {
+        "styles": {
+          "paddingTop": ""
+        }
+      },
+      "TextBox144": {
+        "styles": {
+          "paddingTop": ""
+        }
+      },
+      "Flex165": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "14px"
+        }
+      }
+    },
     "991": {
+      "TextBox123": {
+        "styles": {
+          "paddingLeft": "50px"
+        }
+      },
       "Flex138": {
         "styles": {
           "flexDirection": "column",
@@ -9839,10 +9949,27 @@ const breakpointProps = {
           "paddingRight": ""
         }
       },
+      "Flex141": {
+        "styles": {
+          "paddingLeft": "50px"
+        }
+      },
+      "Flex146": {
+        "styles": {
+          "columnGap": "10px"
+        }
+      },
+      "Flex147": {
+        "styles": {
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
+        }
+      },
       "Menu7": {
         "styles": {
           "display": "flex",
-          "paddingRight": "40px"
+          "paddingRight": "40px",
+          "alignItems": "center"
         }
       }
     }
@@ -10017,12 +10144,20 @@ const breakpointProps = {
     "478": {
       "TextBox179": {
         "styles": {
-          "paddingLeft": "50px"
+          "paddingLeft": ""
+        }
+      },
+      "Flex201": {
+        "styles": {
+          "marginRight": "",
+          "flexDirection": "column"
         }
       },
       "Flex202": {
         "styles": {
-          "alignItems": "center"
+          "alignItems": "center",
+          "paddingLeft": "50px",
+          "paddingRight": "50px"
         }
       },
       "TextBox184": {
@@ -10099,7 +10234,8 @@ const breakpointProps = {
       },
       "Menu5": {
         "styles": {
-          "paddingRight": "40px"
+          "paddingRight": "",
+          "display": "flex"
         }
       }
     },
@@ -10107,25 +10243,26 @@ const breakpointProps = {
       "Flex201": {
         "styles": {
           "flexDirection": "column",
-          "paddingRight": "10px",
+          "paddingRight": "",
           "backgroundColor": "#ffffff",
           "paddingLeft": "10px",
           "paddingBottom": "10px",
           "paddingTop": "10px",
           "alignItems": "stretch",
           "rowGap": "10px",
-          "marginRight": "10px"
+          "marginRight": ""
         }
       },
       "Flex202": {
         "styles": {
-          "alignItems": "center"
+          "alignItems": "center",
+          "paddingRight": "40px"
         }
       },
       "Menu5": {
         "styles": {
           "display": "flex",
-          "paddingRight": "40px"
+          "paddingRight": ""
         }
       },
       "Flex319": {
