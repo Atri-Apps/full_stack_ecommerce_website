@@ -1,49 +1,5 @@
 import { useCallback } from "react";
 import { callbackFactory } from "../utils/callbackFactory";
-export function useImage68Cb() {
-	const onClick = useCallback(callbackFactory("Image68", "contact-us", "/contact-us", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox118Cb() {
-	const onClick = useCallback(callbackFactory("TextBox118", "contact-us", "/contact-us", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex137Cb() {
-	const onClick = useCallback(callbackFactory("Flex137", "contact-us", "/contact-us", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useTextBox119Cb() {
 	const onClick = useCallback(callbackFactory("TextBox119", "contact-us", "/contact-us", "onClick", 
 			{
@@ -994,6 +950,38 @@ export function useFlex166Cb() {
 	const onClick = useCallback(callbackFactory("Flex166", "contact-us", "/contact-us", "onClick", 
 			{
   "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useMenu7Cb() {
+	const onClick = useCallback(callbackFactory("Menu7", "contact-us", "/contact-us", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "open"
+      ]
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox312Cb() {
+	const onClick = useCallback(callbackFactory("TextBox312", "contact-us", "/contact-us", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"

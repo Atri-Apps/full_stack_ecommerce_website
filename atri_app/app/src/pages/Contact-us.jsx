@@ -4,12 +4,13 @@ import useIoStore from "../hooks/useIoStore";
 import { useNavigate, useLocation } from "react-router-dom";
 import { subscribeInternalNavigation } from "../utils/navigate";
 import {fetchPageProps} from "../utils/fetchPageProps"
-import { Image as Image2 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { TextBox as TextBox2 } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Flex as Flex2 } from "@atrilabs/react-component-manifests/src/manifests/Flex/Flex.tsx";
+import { Image as Image2 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Input as Input1 } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
 import { Button as Button1 } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
-import { useImage68Cb, useTextBox118Cb, useFlex137Cb, useTextBox119Cb, useTextBox120Cb, useTextBox121Cb, useTextBox122Cb, useTextBox123Cb, useFlex138Cb, useFlex139Cb, useFlex140Cb, useTextBox124Cb, useTextBox125Cb, useFlex141Cb, useFlex142Cb, useTextBox126Cb, useTextBox127Cb, useTextBox128Cb, useTextBox129Cb, useTextBox130Cb, useTextBox131Cb, useFlex143Cb, useFlex144Cb, useFlex145Cb, useTextBox132Cb, useTextBox133Cb, useFlex146Cb, useFlex147Cb, useFlex148Cb, useFlex149Cb, useFlex151Cb, useFlex152Cb, useFlex153Cb, useFlex154Cb, useTextBox134Cb, useFlex155Cb, useFlex156Cb, useTextBox135Cb, useFlex158Cb, useImage72Cb, useInput4Cb, useInput5Cb, useImage73Cb, useFlex159Cb, useTextBox136Cb, useFlex160Cb, useFlex161Cb, useTextBox137Cb, useTextBox138Cb, useInput6Cb, useButton5Cb, useImage74Cb, useTextBox139Cb, useTextBox140Cb, useImage75Cb, useTextBox141Cb, useTextBox142Cb, useImage76Cb, useTextBox143Cb, useTextBox144Cb, useFlex162Cb, useFlex163Cb, useFlex164Cb, useTextBox145Cb, useTextBox146Cb, useFlex165Cb, useFlex166Cb } from "../page-cbs/contact-us";
+import { Menu as Menu2 } from "@atrilabs/react-component-manifests/src/manifests/Menu/Menu.tsx";
+import { useTextBox119Cb, useTextBox120Cb, useTextBox121Cb, useTextBox122Cb, useTextBox123Cb, useFlex138Cb, useFlex139Cb, useFlex140Cb, useTextBox124Cb, useTextBox125Cb, useFlex141Cb, useFlex142Cb, useTextBox126Cb, useTextBox127Cb, useTextBox128Cb, useTextBox129Cb, useTextBox130Cb, useTextBox131Cb, useFlex143Cb, useFlex144Cb, useFlex145Cb, useTextBox132Cb, useTextBox133Cb, useFlex146Cb, useFlex147Cb, useFlex148Cb, useFlex149Cb, useFlex151Cb, useFlex152Cb, useFlex153Cb, useFlex154Cb, useTextBox134Cb, useFlex155Cb, useFlex156Cb, useTextBox135Cb, useFlex158Cb, useImage72Cb, useInput4Cb, useInput5Cb, useImage73Cb, useFlex159Cb, useTextBox136Cb, useFlex160Cb, useFlex161Cb, useTextBox137Cb, useTextBox138Cb, useInput6Cb, useButton5Cb, useImage74Cb, useTextBox139Cb, useTextBox140Cb, useImage75Cb, useTextBox141Cb, useTextBox142Cb, useImage76Cb, useTextBox143Cb, useTextBox144Cb, useFlex162Cb, useFlex163Cb, useFlex164Cb, useTextBox145Cb, useTextBox146Cb, useFlex165Cb, useFlex166Cb, useMenu7Cb, useTextBox312Cb } from "../page-cbs/contact-us";
 
 export default function ContactUs() {
   const navigate = useNavigate();
@@ -41,16 +42,7 @@ export default function ContactUs() {
     }
   }, [])
 
-  const Image68Props = useStore((state)=>state["contact-us"]["Image68"]);
-const Image68IoProps = useIoStore((state)=>state["contact-us"]["Image68"]);
-const Image68Cb = useImage68Cb()
-const TextBox118Props = useStore((state)=>state["contact-us"]["TextBox118"]);
-const TextBox118IoProps = useIoStore((state)=>state["contact-us"]["TextBox118"]);
-const TextBox118Cb = useTextBox118Cb()
-const Flex137Props = useStore((state)=>state["contact-us"]["Flex137"]);
-const Flex137IoProps = useIoStore((state)=>state["contact-us"]["Flex137"]);
-const Flex137Cb = useFlex137Cb()
-const TextBox119Props = useStore((state)=>state["contact-us"]["TextBox119"]);
+  const TextBox119Props = useStore((state)=>state["contact-us"]["TextBox119"]);
 const TextBox119IoProps = useIoStore((state)=>state["contact-us"]["TextBox119"]);
 const TextBox119Cb = useTextBox119Cb()
 const TextBox120Props = useStore((state)=>state["contact-us"]["TextBox120"]);
@@ -242,22 +234,27 @@ const Flex165Cb = useFlex165Cb()
 const Flex166Props = useStore((state)=>state["contact-us"]["Flex166"]);
 const Flex166IoProps = useIoStore((state)=>state["contact-us"]["Flex166"]);
 const Flex166Cb = useFlex166Cb()
+const Menu7Props = useStore((state)=>state["contact-us"]["Menu7"]);
+const Menu7IoProps = useIoStore((state)=>state["contact-us"]["Menu7"]);
+const Menu7Cb = useMenu7Cb()
+const TextBox312Props = useStore((state)=>state["contact-us"]["TextBox312"]);
+const TextBox312IoProps = useIoStore((state)=>state["contact-us"]["TextBox312"]);
+const TextBox312Cb = useTextBox312Cb()
 
   return (<>
   <Flex2 {...Flex140Props} {...Flex140Cb} {...Flex140IoProps}>
 <Flex2 {...Flex139Props} {...Flex139Cb} {...Flex139IoProps}>
 <TextBox2 {...TextBox123Props} {...TextBox123Cb} {...TextBox123IoProps}/>
 </Flex2>
+<Menu2 {...Menu7Props} {...Menu7Cb} {...Menu7IoProps}>
 <Flex2 {...Flex138Props} {...Flex138Cb} {...Flex138IoProps}>
 <TextBox2 {...TextBox121Props} {...TextBox121Cb} {...TextBox121IoProps}/>
 <TextBox2 {...TextBox119Props} {...TextBox119Cb} {...TextBox119IoProps}/>
 <TextBox2 {...TextBox120Props} {...TextBox120Cb} {...TextBox120IoProps}/>
 <TextBox2 {...TextBox122Props} {...TextBox122Cb} {...TextBox122IoProps}/>
-<Flex2 {...Flex137Props} {...Flex137Cb} {...Flex137IoProps}>
-<Image2 {...Image68Props} {...Image68Cb} {...Image68IoProps}/>
-<TextBox2 {...TextBox118Props} {...TextBox118Cb} {...TextBox118IoProps}/>
+<TextBox2 {...TextBox312Props} {...TextBox312Cb} {...TextBox312IoProps}/>
 </Flex2>
-</Flex2>
+</Menu2>
 </Flex2>
 <Flex2 {...Flex142Props} {...Flex142Cb} {...Flex142IoProps}>
 <Flex2 {...Flex141Props} {...Flex141Cb} {...Flex141IoProps}>

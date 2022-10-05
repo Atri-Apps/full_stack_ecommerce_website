@@ -27024,5 +27024,49 @@
       }
     },
     "id": "4eacf880-a0dc-4358-b052-b350da73b11e"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "open": true
+        }
+      }
+    },
+    "id": "e4df4817-ebce-4970-90ab-1d2a18a90d2a"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "alignRight": false
+        }
+      }
+    },
+    "id": "e4df4817-ebce-4970-90ab-1d2a18a90d2a"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "alignRight": true
+        }
+      }
+    },
+    "id": "e4df4817-ebce-4970-90ab-1d2a18a90d2a"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "open": false
+        }
+      }
+    },
+    "id": "e4df4817-ebce-4970-90ab-1d2a18a90d2a"
   }
 ]

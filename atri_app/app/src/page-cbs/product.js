@@ -1196,22 +1196,6 @@ export function useFlex315Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox306Cb() {
-	const onClick = useCallback(callbackFactory("TextBox306", "product", "/product", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useTextBox307Cb() {
 	const onClick = useCallback(callbackFactory("TextBox307", "product", "/product", "onClick", 
 			{
@@ -1288,18 +1272,6 @@ export function useTextBox310Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex320Cb() {
-	const onClick = useCallback(callbackFactory("Flex320", "product", "/product", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useFlex321Cb() {
 	const onClick = useCallback(callbackFactory("Flex321", "product", "/product", "onClick", 
 			{
@@ -1323,6 +1295,22 @@ export function useMenu6Cb() {
         "custom",
         "open"
       ]
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox311Cb() {
+	const onClick = useCallback(callbackFactory("TextBox311", "product", "/product", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
     }
   ]
 }), [])

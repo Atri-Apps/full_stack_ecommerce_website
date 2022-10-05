@@ -1,21 +1,5 @@
 import { useCallback } from "react";
 import { callbackFactory } from "../utils/callbackFactory";
-export function useTextBox178Cb() {
-	const onClick = useCallback(callbackFactory("TextBox178", "shop", "/shop", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useTextBox179Cb() {
 	const onClick = useCallback(callbackFactory("TextBox179", "shop", "/shop", "onClick", 
 			{
@@ -103,18 +87,6 @@ export function useTextBox183Cb() {
       }
     }
   ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex199Cb() {
-	const onClick = useCallback(callbackFactory("Flex199", "shop", "/shop", "onClick", 
-			{
-  "handlers": [],
   "actions": [
     {
       "type": "do_nothing"
@@ -1593,6 +1565,22 @@ export function useFlex319Cb() {
 	const onClick = useCallback(callbackFactory("Flex319", "shop", "/shop", "onClick", 
 			{
   "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox313Cb() {
+	const onClick = useCallback(callbackFactory("TextBox313", "shop", "/shop", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"

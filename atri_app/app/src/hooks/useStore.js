@@ -2345,7 +2345,7 @@ const desktopModeProps = {
         "alignItems": "center"
       },
       "custom": {
-        "open": false,
+        "open": true,
         "iconHeight": 24,
         "iconWidth": 24,
         "alignRight": true,
@@ -5194,48 +5194,6 @@ const desktopModeProps = {
     }
   },
   "contact-us": {
-    "Image68": {
-      "styles": {
-        "width": "20px",
-        "height": "20px"
-      },
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/cart-svgrepo-com.svg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox118": {
-      "styles": {},
-      "custom": {
-        "text": "Cart"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Flex137": {
-      "styles": {
-        "display": "flex",
-        "columnGap": "10px",
-        "cursor": "pointer",
-        "paddingLeft": "10px",
-        "borderLeftWidth": "2px",
-        "borderLeftStyle": "solid",
-        "borderLeftColor": "#a4a4a4"
-      },
-      "callbacks": {}
-    },
     "TextBox119": {
       "styles": {
         "cursor": "pointer"
@@ -5335,7 +5293,8 @@ const desktopModeProps = {
         "display": "flex",
         "alignItems": "center",
         "columnGap": "50px",
-        "paddingRight": "100px"
+        "paddingRight": "100px",
+        "marginRight": "10px"
       },
       "callbacks": {}
     },
@@ -6173,6 +6132,31 @@ const desktopModeProps = {
         "paddingBottom": "90px"
       },
       "callbacks": {}
+    },
+    "Menu7": {
+      "styles": {
+        "display": "none"
+      },
+      "custom": {
+        "open": false,
+        "iconHeight": 24,
+        "iconWidth": 24,
+        "alignRight": true
+      },
+      "callbacks": {}
+    },
+    "TextBox312": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     }
   },
   "product": {
@@ -7181,7 +7165,7 @@ const desktopModeProps = {
         "display": "none"
       },
       "custom": {
-        "open": false,
+        "open": true,
         "iconHeight": 24,
         "iconWidth": 24,
         "alignRight": true
@@ -7342,19 +7326,6 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "TextBox306": {
-      "styles": {},
-      "custom": {
-        "text": "Cart"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox307": {
       "styles": {
         "cursor": "pointer"
@@ -7427,18 +7398,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Flex320": {
-      "styles": {
-        "display": "flex",
-        "columnGap": "10px",
-        "cursor": "pointer",
-        "paddingLeft": "10px",
-        "borderLeftWidth": "2px",
-        "borderLeftStyle": "solid",
-        "borderLeftColor": "#a4a4a4"
-      },
-      "callbacks": {}
-    },
     "Flex321": {
       "styles": {
         "display": "flex",
@@ -7453,16 +7412,14 @@ const desktopModeProps = {
         "display": "none"
       },
       "custom": {
-        "open": false,
+        "open": true,
         "iconHeight": 24,
         "iconWidth": 24,
         "alignRight": true
       },
       "callbacks": {}
-    }
-  },
-  "shop": {
-    "TextBox178": {
+    },
+    "TextBox311": {
       "styles": {},
       "custom": {
         "text": "Cart"
@@ -7474,7 +7431,9 @@ const desktopModeProps = {
           }
         ]
       }
-    },
+    }
+  },
+  "shop": {
     "TextBox179": {
       "styles": {
         "fontFamily": "Open Sans",
@@ -7568,18 +7527,6 @@ const desktopModeProps = {
           }
         ]
       }
-    },
-    "Flex199": {
-      "styles": {
-        "display": "flex",
-        "columnGap": "10px",
-        "cursor": "pointer",
-        "paddingLeft": "10px",
-        "borderLeftWidth": "2px",
-        "borderLeftStyle": "solid",
-        "borderLeftColor": "#a4a4a4"
-      },
-      "callbacks": {}
     },
     "Flex201": {
       "styles": {
@@ -8822,7 +8769,7 @@ const desktopModeProps = {
         "display": "none"
       },
       "custom": {
-        "open": false,
+        "open": true,
         "iconHeight": 24,
         "iconWidth": 24,
         "alignRight": true
@@ -8982,6 +8929,19 @@ const desktopModeProps = {
         "marginRight": ""
       },
       "callbacks": {}
+    },
+    "TextBox313": {
+      "styles": {},
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
     }
   },
   "extra": {
@@ -9605,7 +9565,8 @@ const breakpointProps = {
           "paddingTop": "10px",
           "backgroundColor": "",
           "width": "100%",
-          "borderLeftStyle": "none"
+          "borderLeftStyle": "none",
+          "borderLeftWidth": "px"
         }
       }
     },
@@ -9684,7 +9645,8 @@ const breakpointProps = {
       "Flex247": {
         "styles": {
           "flexDirection": "column",
-          "rowGap": "10px"
+          "rowGap": "10px",
+          "borderLeftWidth": "px"
         }
       }
     },
@@ -9704,6 +9666,20 @@ const breakpointProps = {
           "display": "flex",
           "position": "relative",
           "right": 50
+        }
+      },
+      "Flex247": {
+        "styles": {
+          "flexDirection": "column",
+          "rowGap": "10px",
+          "columnGap": "px",
+          "borderLeftStyle": "none",
+          "paddingLeft": "10px",
+          "paddingRight": "10px",
+          "paddingTop": "10px",
+          "paddingBottom": "10px",
+          "borderLeftWidth": "px",
+          "borderLeftColor": ""
         }
       },
       "Flex306": {
@@ -9843,7 +9819,34 @@ const breakpointProps = {
       }
     }
   },
-  "contact-us": {},
+  "contact-us": {
+    "991": {
+      "Flex138": {
+        "styles": {
+          "flexDirection": "column",
+          "backgroundColor": "#ffffff",
+          "alignItems": "stretch",
+          "rowGap": "10px",
+          "paddingRight": "10px",
+          "paddingTop": "10px",
+          "marginRight": "10px",
+          "paddingLeft": "10px",
+          "paddingBottom": "10px"
+        }
+      },
+      "Flex140": {
+        "styles": {
+          "paddingRight": ""
+        }
+      },
+      "Menu7": {
+        "styles": {
+          "display": "flex",
+          "paddingRight": "40px"
+        }
+      }
+    }
+  },
   "product": {
     "478": {
       "TextBox152": {
@@ -9923,13 +9926,15 @@ const breakpointProps = {
       "Flex168": {
         "styles": {
           "paddingRight": "10px",
-          "marginRight": "",
+          "marginRight": "10px",
           "flexDirection": "column",
           "backgroundColor": "#ffffff",
-          "rowGap": "7px",
+          "rowGap": "10px",
           "paddingLeft": "10px",
           "paddingBottom": "10px",
-          "paddingTop": "10px"
+          "paddingTop": "10px",
+          "alignItems": "stretch",
+          "columnGap": "px"
         }
       },
       "Flex170": {
@@ -9954,11 +9959,6 @@ const breakpointProps = {
         "styles": {
           "display": "flex",
           "paddingRight": "40px"
-        }
-      },
-      "Flex320": {
-        "styles": {
-          "paddingLeft": ""
         }
       },
       "Flex321": {
@@ -9989,6 +9989,20 @@ const breakpointProps = {
       "Flex315": {
         "styles": {
           "display": "none"
+        }
+      },
+      "Flex321": {
+        "styles": {
+          "flexDirection": "column",
+          "paddingRight": "10px",
+          "backgroundColor": "#ffffff",
+          "alignItems": "flex-start",
+          "paddingLeft": "10px",
+          "paddingTop": "10px",
+          "paddingBottom": "10px",
+          "marginRight": "10px",
+          "rowGap": "10px",
+          "columnGap": "px"
         }
       },
       "Menu6": {
@@ -10090,11 +10104,6 @@ const breakpointProps = {
       }
     },
     "991": {
-      "Flex199": {
-        "styles": {
-          "paddingLeft": ""
-        }
-      },
       "Flex201": {
         "styles": {
           "flexDirection": "column",
@@ -10102,7 +10111,10 @@ const breakpointProps = {
           "backgroundColor": "#ffffff",
           "paddingLeft": "10px",
           "paddingBottom": "10px",
-          "paddingTop": "10px"
+          "paddingTop": "10px",
+          "alignItems": "stretch",
+          "rowGap": "10px",
+          "marginRight": "10px"
         }
       },
       "Flex202": {
